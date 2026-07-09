@@ -1,0 +1,1 @@
+{"hostname":"DESKTOP-POD793O","results":[{"command":"\u0000a\u0000r\u0000p\u0000 \u0000-\u0000a","output":"ERROR: fork/exec C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe: invalid argument\nOutput: ","success":true,"timestamp":"2026-07-09 02:16:02"}],"timestamp":"2026-07-09 02:16:02"}
