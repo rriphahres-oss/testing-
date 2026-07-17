@@ -1,5 +1,5 @@
 === System Information ===
-Time: Thu, 16 Jul 2026 22:15:37 PDT
+Time: Thu, 16 Jul 2026 22:16:23 PDT
 Hostname: DESKTOP-POD793O
 OS: windows
 Arch: amd64
@@ -14,7 +14,7 @@ DESKTOP-POD793O
 desktop-pod793o\hp zbook
 
 --- ipconfig /all ---
-Error: command timed out after 10 seconds: ipconfig /all
+Error: command timed out after 90 seconds: ipconfig /all
 
 --- systeminfo (OS Name only) ---
 OS Name:                       Microsoft Windows 11 Pro
