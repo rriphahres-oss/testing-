@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Fri, 17 Jul 2026 01:02:01 PDT
+Time: Fri, 17 Jul 2026 01:02:42 PDT
 
 $ whoami
 desktop-pod793o\hp zbook
@@ -30,10 +30,10 @@ System Locale:                 en-us;English (United States)
 Input Locale:                  en-us;English (United States)
 Time Zone:                     (UTC-08:00) Pacific Time (US & Canada)
 Total Physical Memory:         16,191 MB
-Available Physical Memory:     1,435 MB
+Available Physical Memory:     1,208 MB
 Virtual Memory: Max Size:      36,754 MB
-Virtual Memory: Available:     2,104 MB
-Virtual Memory: In Use:        34,650 MB
+Virtual Memory: Available:     2,133 MB
+Virtual Memory: In Use:        34,621 MB
 Page File Location(s):         C:\pagefile.sys
 Domain:                        WORKGROUP
 Logon Server:                  \\DESKTOP-POD793O
@@ -244,7 +244,7 @@ Ethernet adapter VMware Network Adapter VMnet1:
    IPv4 Address. . . . . . . . . . . : 192.168.153.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Thursday, July 16, 2026 9:52:28 PM
-   Lease Expires . . . . . . . . . . : Friday, July 17, 2026 1:22:28 AM
+   Lease Expires . . . . . . . . . . : Friday, July 17, 2026 1:22:27 AM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.153.254
    DHCPv6 IAID . . . . . . . . . . . : 50352214
@@ -262,7 +262,7 @@ Ethernet adapter VMware Network Adapter VMnet8:
    IPv4 Address. . . . . . . . . . . : 192.168.160.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Thursday, July 16, 2026 9:52:28 PM
-   Lease Expires . . . . . . . . . . : Friday, July 17, 2026 1:22:28 AM
+   Lease Expires . . . . . . . . . . : Friday, July 17, 2026 1:22:27 AM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.160.254
    DHCPv6 IAID . . . . . . . . . . . : 318787670
