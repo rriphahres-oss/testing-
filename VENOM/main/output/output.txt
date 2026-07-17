@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Fri, 17 Jul 2026 17:36:02 PKT
+Time: Fri, 17 Jul 2026 17:36:53 PKT
 
 $ whoami
 venom\35748
@@ -21,7 +21,7 @@ System Manufacturer:           Dell Inc.
 System Model:                  Latitude 7480
 System Type:                   x64-based PC
 Processor(s):                  1 Processor(s) Installed.
-                               [01]: Intel64 Family 6 Model 142 Stepping 9 GenuineIntel ~2901 Mhz
+                               [01]: Intel64 Family 6 Model 142 Stepping 9 GenuineIntel ~1500 Mhz
 BIOS Version:                  Dell Inc. 1.41.3, 09/02/2025
 Windows Directory:             C:\WINDOWS
 System Directory:              C:\WINDOWS\system32
@@ -30,10 +30,10 @@ System Locale:                 en-gb;English (United Kingdom)
 Input Locale:                  en-gb;English (United Kingdom)
 Time Zone:                     (UTC+05:00) Islamabad, Karachi
 Total Physical Memory:         16,230 MB
-Available Physical Memory:     7,259 MB
+Available Physical Memory:     7,403 MB
 Virtual Memory: Max Size:      22,118 MB
-Virtual Memory: Available:     12,267 MB
-Virtual Memory: In Use:        9,851 MB
+Virtual Memory: Available:     12,333 MB
+Virtual Memory: In Use:        9,785 MB
 Page File Location(s):         C:\pagefile.sys
 Domain:                        WORKGROUP
 Logon Server:                  \\VENOM
@@ -247,5 +247,5 @@ $ dir
 11/03/2026  09:28 am         1,594,259 VPN_SETUP (3).zip
 09/03/2026  03:20 pm         2,119,070 VPN_SETUP.exe
               19 File(s)     70,401,776 bytes
-              10 Dir(s)   8,865,611,776 bytes free
+              10 Dir(s)   8,864,382,976 bytes free
 ---
