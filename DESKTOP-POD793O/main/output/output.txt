@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Fri, 17 Jul 2026 00:40:49 PDT
+Time: Fri, 17 Jul 2026 00:41:30 PDT
 
 $ whoami
 desktop-pod793o\hp zbook
@@ -30,10 +30,10 @@ System Locale:                 en-us;English (United States)
 Input Locale:                  en-us;English (United States)
 Time Zone:                     (UTC-08:00) Pacific Time (US & Canada)
 Total Physical Memory:         16,191 MB
-Available Physical Memory:     1,971 MB
+Available Physical Memory:     1,915 MB
 Virtual Memory: Max Size:      36,754 MB
-Virtual Memory: Available:     3,104 MB
-Virtual Memory: In Use:        33,650 MB
+Virtual Memory: Available:     3,193 MB
+Virtual Memory: In Use:        33,561 MB
 Page File Location(s):         C:\pagefile.sys
 Domain:                        WORKGROUP
 Logon Server:                  \\DESKTOP-POD793O
@@ -244,7 +244,7 @@ Ethernet adapter VMware Network Adapter VMnet1:
    IPv4 Address. . . . . . . . . . . : 192.168.153.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Thursday, July 16, 2026 9:52:28 PM
-   Lease Expires . . . . . . . . . . : Friday, July 17, 2026 1:07:28 AM
+   Lease Expires . . . . . . . . . . : Friday, July 17, 2026 1:07:27 AM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.153.254
    DHCPv6 IAID . . . . . . . . . . . : 50352214
@@ -262,7 +262,7 @@ Ethernet adapter VMware Network Adapter VMnet8:
    IPv4 Address. . . . . . . . . . . : 192.168.160.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Thursday, July 16, 2026 9:52:28 PM
-   Lease Expires . . . . . . . . . . : Friday, July 17, 2026 1:07:28 AM
+   Lease Expires . . . . . . . . . . : Friday, July 17, 2026 1:07:27 AM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.160.254
    DHCPv6 IAID . . . . . . . . . . . : 318787670
@@ -289,8 +289,8 @@ $ dir
 07/17/2026  12:14 AM    <DIR>          ..
 07/17/2026  12:12 AM         6,595,072 agent.exe
 07/17/2026  12:19 AM         8,793,434 agent_b64.txt
-07/17/2026  12:38 AM             1,694 create_lnk.ps1
+07/17/2026  12:41 AM             1,663 create_lnk.ps1
 07/17/2026  12:38 AM                 0 lnk.txt
-               4 File(s)     15,390,200 bytes
+               4 File(s)     15,390,169 bytes
                2 Dir(s)  118,347,833,344 bytes free
 ---
