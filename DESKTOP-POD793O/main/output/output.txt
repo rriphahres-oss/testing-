@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Fri, 17 Jul 2026 00:13:55 PDT
+Time: Fri, 17 Jul 2026 00:14:15 PDT
 
 $ whoami
 desktop-pod793o\hp zbook
@@ -30,10 +30,10 @@ System Locale:                 en-us;English (United States)
 Input Locale:                  en-us;English (United States)
 Time Zone:                     (UTC-08:00) Pacific Time (US & Canada)
 Total Physical Memory:         16,191 MB
-Available Physical Memory:     2,037 MB
+Available Physical Memory:     1,866 MB
 Virtual Memory: Max Size:      36,754 MB
-Virtual Memory: Available:     3,021 MB
-Virtual Memory: In Use:        33,733 MB
+Virtual Memory: Available:     2,891 MB
+Virtual Memory: In Use:        33,863 MB
 Page File Location(s):         C:\pagefile.sys
 Domain:                        WORKGROUP
 Logon Server:                  \\DESKTOP-POD793O
@@ -283,16 +283,11 @@ $ dir
  Volume in drive D is New Volume
  Volume Serial Number is F284-B530
 
- Directory of D:\go
+ Directory of D:\go\final
 
-07/17/2026  12:13 AM    <DIR>          .
+07/17/2026  12:14 AM    <DIR>          .
+07/17/2026  12:14 AM    <DIR>          ..
 07/17/2026  12:12 AM         6,595,072 agent.exe
-07/16/2026  05:27 AM         6,446,592 agent_debug.exe
-07/17/2026  12:13 AM    <DIR>          final
-07/17/2026  12:10 AM            22,012 git.go
-07/16/2026  05:17 AM                 0 git_.txt
-07/16/2026  10:34 PM                 0 go
-07/16/2026  05:21 AM                24 go.mod
-               6 File(s)     13,063,700 bytes
+               1 File(s)      6,595,072 bytes
                2 Dir(s)  118,356,631,552 bytes free
 ---
