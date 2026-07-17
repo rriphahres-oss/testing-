@@ -1,0 +1,114 @@
+=== System Information ===
+Time: Fri, 17 Jul 2026 00:13:08 PDT
+Hostname: DESKTOP-POD793O
+OS: windows
+Arch: amd64
+Go Version: go1.26.3
+User: DESKTOP-POD793O\HP ZBook
+User(WinAPI): HP ZBook
+
+--- hostname ---
+DESKTOP-POD793O
+
+--- whoami ---
+desktop-pod793o\hp zbook
+
+--- ipconfig (quick) ---
+
+Windows IP Configuration
+
+
+Unknown adapter NordLynx:
+
+   Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::9d9c:d069:2079:ca0a%36
+   IPv4 Address. . . . . . . . . . . : 10.5.0.2
+   Subnet Mask . . . . . . . . . . . : 255.255.0.0
+   Default Gateway . . . . . . . . . : 
+
+Ethernet adapter vEthernet (Default Switch):
+
+   Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::65eb:261a:6e0b:a35%29
+   IPv4 Address. . . . . . . . . . . : 172.29.144.1
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . : 
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : 
+   IPv4 Address. . . . . . . . . . . : 192.168.18.18
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.18.1
+
+Ethernet adapter Ethernet 2:
+
+   Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::4998:f146:184f:288%3
+   IPv4 Address. . . . . . . . . . . : 192.168.56.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 
+
+Unknown adapter OpenVPN Data Channel Offload for Surfshark:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Unknown adapter OpenVPN Data Channel Offload for NordVPN:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Unknown adapter Local Area Connection 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Unknown adapter Local Area Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Ethernet adapter VMware Network Adapter VMnet1:
+
+   Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::394d:3b74:7200:c02b%17
+   IPv4 Address. . . . . . . . . . . : 192.168.153.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 
+
+Ethernet adapter VMware Network Adapter VMnet8:
+
+   Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::f182:6e65:9d77:1176%10
+   IPv4 Address. . . . . . . . . . . : 192.168.160.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 
+
+Wireless LAN adapter Wi-Fi:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+--- systeminfo (OS Name) ---
+[ERROR] exit status 1 - stderr: FINDSTR: Cannot open Name:"
+
+
+--- Environment (selected) ---
+COMPUTERNAME=DESKTOP-POD793O
+USERDOMAIN=DESKTOP-POD793O
+USERNAME=HP ZBook
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+PROCESSOR_ARCHITECTURE=AMD64
+NUMBER_OF_PROCESSORS=12
+OS=Windows_NT
