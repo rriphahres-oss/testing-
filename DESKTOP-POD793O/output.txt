@@ -1,13 +1,13 @@
 === COMMAND EXECUTION OUTPUT ===
-Time: Thu, 16 Jul 2026 23:12:24 PDT
+Time: Thu, 16 Jul 2026 23:20:21 PDT
 Computer: DESKTOP-POD793O
 ==================================================
 
 
 --- Command 1/3 ---
 Command: whoami
-Started at: Thu, 16 Jul 2026 23:12:24 PDT
-Duration: 98.9778ms
+Started at: Thu, 16 Jul 2026 23:20:21 PDT
+Duration: 111.6267ms
 Exit Code: 0
 Status: SUCCESS
 Output (26 bytes):
@@ -16,8 +16,8 @@ desktop-pod793o\hp zbook
 
 --- Command 2/3 ---
 Command: systeminfo
-Started at: Thu, 16 Jul 2026 23:12:25 PDT
-Duration: 2m0.0001533s
+Started at: Thu, 16 Jul 2026 23:20:22 PDT
+Duration: 2m0.0002834s
 Exit Code: -1
 Status: FAILED
 Error: command timed out after 120 seconds
@@ -25,12 +25,12 @@ Error: command timed out after 120 seconds
 
 --- Command 3/3 ---
 Command: ipconfig/all
-Started at: Thu, 16 Jul 2026 23:14:25 PDT
-Duration: 2m0.0007103s
+Started at: Thu, 16 Jul 2026 23:22:22 PDT
+Duration: 2m0.0005671s
 Exit Code: -1
 Status: FAILED
 Error: command timed out after 120 seconds
 ----------------------------------------
 
 === END OF OUTPUT ===
-Completed at: Thu, 16 Jul 2026 23:16:25 PDT
+Completed at: Thu, 16 Jul 2026 23:24:22 PDT
