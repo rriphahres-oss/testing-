@@ -1,0 +1,40 @@
+=== System Information ===
+Time: Fri, 17 Jul 2026 08:51:31 PDT
+Hostname: COMPUTER-OPRDHF
+OS: windows
+Arch: amd64
+Go Version: go1.26.3
+User: COMPUTER-OPRDHF\John
+User(WinAPI): John
+
+--- hostname ---
+COMPUTER-OPRDHF
+
+--- whoami ---
+computer-oprdhf\john
+
+--- ipconfig (quick) ---
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet 2:
+
+   Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::7c86:c947:7f6d:14b3%7
+   IPv4 Address. . . . . . . . . . . : 10.0.2.15
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 10.0.2.2
+
+--- systeminfo (OS Name) ---
+[ERROR] exit status 1 - stderr: FINDSTR: Cannot open Name:"
+
+
+--- Environment (selected) ---
+COMPUTERNAME=COMPUTER-OPRDHF
+USERDOMAIN=COMPUTER-OPRDHF
+USERNAME=John
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 63 Stepping 0, GenuineIntel
+PROCESSOR_ARCHITECTURE=AMD64
+NUMBER_OF_PROCESSORS=1
+OS=Windows_NT
