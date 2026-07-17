@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Fri, 17 Jul 2026 00:18:58 PDT
+Time: Fri, 17 Jul 2026 00:19:40 PDT
 
 $ whoami
 desktop-pod793o\hp zbook
@@ -30,10 +30,10 @@ System Locale:                 en-us;English (United States)
 Input Locale:                  en-us;English (United States)
 Time Zone:                     (UTC-08:00) Pacific Time (US & Canada)
 Total Physical Memory:         16,191 MB
-Available Physical Memory:     2,111 MB
+Available Physical Memory:     1,976 MB
 Virtual Memory: Max Size:      36,754 MB
-Virtual Memory: Available:     2,890 MB
-Virtual Memory: In Use:        33,864 MB
+Virtual Memory: Available:     2,919 MB
+Virtual Memory: In Use:        33,835 MB
 Page File Location(s):         C:\pagefile.sys
 Domain:                        WORKGROUP
 Logon Server:                  \\DESKTOP-POD793O
@@ -285,9 +285,10 @@ $ dir
 
  Directory of D:\go\final
 
-07/17/2026  12:14 AM    <DIR>          .
+07/17/2026  12:19 AM    <DIR>          .
 07/17/2026  12:14 AM    <DIR>          ..
 07/17/2026  12:12 AM         6,595,072 agent.exe
-               1 File(s)      6,595,072 bytes
-               2 Dir(s)  118,356,631,552 bytes free
+07/17/2026  12:19 AM         8,793,434 agent_b64.txt
+               2 File(s)     15,388,506 bytes
+               2 Dir(s)  118,347,837,440 bytes free
 ---
