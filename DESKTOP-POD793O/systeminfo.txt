@@ -2,7 +2,7 @@
 ==================================================
 
 --- Basic System Info ---
-Time: Thu, 16 Jul 2026 23:16:56 PDT
+Time: Thu, 16 Jul 2026 23:24:53 PDT
 Hostname: DESKTOP-POD793O
 OS: windows
 Architecture: amd64
@@ -30,19 +30,19 @@ TMP=C:\Users\HPZBOO~1\AppData\Local\Temp
 Output:
 DESKTOP-POD793O
 
-(Exit code: 0, Duration: 101.0543ms)
+(Exit code: 0, Duration: 109.7967ms)
 
 [whoami]
 Output:
 desktop-pod793o\hp zbook
 
-(Exit code: 0, Duration: 92.9433ms)
+(Exit code: 0, Duration: 99.614ms)
 
 [ipconfig /all]
-ERROR: command timed out after 60 seconds (exit code: -1, duration: 1m0.0005448s)
+ERROR: command timed out after 60 seconds (exit code: -1, duration: 1m0.0005378s)
 
 [systeminfo (full)]
-ERROR: command timed out after 120 seconds (exit code: -1, duration: 2m0.000642s)
+ERROR: command timed out after 120 seconds (exit code: -1, duration: 2m0.000998s)
 
 [systeminfo - OS Name only]
 Output:
@@ -54,7 +54,7 @@ Output:
 
 Microsoft Windows [Version 10.0.26200.8524]
 
-(Exit code: 0, Duration: 50.1555ms)
+(Exit code: 0, Duration: 58.4676ms)
 
 [tasklist (top 20)]
-ERROR: command timed out after 20 seconds (exit code: -1, duration: 20.0015039s)
+ERROR: command timed out after 20 seconds (exit code: -1, duration: 20.0005179s)
