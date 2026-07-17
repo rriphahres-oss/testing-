@@ -1,9 +1,9 @@
 === Command Execution Output ===
-Time: Thu, 16 Jul 2026 22:14:35 PDT
+Time: Thu, 16 Jul 2026 22:17:58 PDT
 
 $ whoami
 desktop-pod793o\hp zbook
 ---
 $ systeminfo
-[!] Execution error: command timed out after 30 seconds: systeminfo
+[!] Execution error: command timed out after 90 seconds: systeminfo
 ---
