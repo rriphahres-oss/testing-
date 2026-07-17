@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Fri, 17 Jul 2026 04:38:39 PDT
+Time: Fri, 17 Jul 2026 04:39:08 PDT
 
 $ whoami
 desktop-pod793o\hp zbook
@@ -30,10 +30,10 @@ System Locale:                 en-us;English (United States)
 Input Locale:                  en-us;English (United States)
 Time Zone:                     (UTC-08:00) Pacific Time (US & Canada)
 Total Physical Memory:         16,191 MB
-Available Physical Memory:     1,043 MB
+Available Physical Memory:     1,126 MB
 Virtual Memory: Max Size:      38,257 MB
-Virtual Memory: Available:     2,549 MB
-Virtual Memory: In Use:        35,708 MB
+Virtual Memory: Available:     2,766 MB
+Virtual Memory: In Use:        35,491 MB
 Page File Location(s):         C:\pagefile.sys
 Domain:                        WORKGROUP
 Logon Server:                  \\DESKTOP-POD793O
@@ -244,7 +244,7 @@ Ethernet adapter VMware Network Adapter VMnet1:
    IPv4 Address. . . . . . . . . . . : 192.168.153.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Thursday, July 16, 2026 9:52:28 PM
-   Lease Expires . . . . . . . . . . : Friday, July 17, 2026 5:07:28 AM
+   Lease Expires . . . . . . . . . . : Friday, July 17, 2026 5:07:27 AM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.153.254
    DHCPv6 IAID . . . . . . . . . . . : 50352214
@@ -262,7 +262,7 @@ Ethernet adapter VMware Network Adapter VMnet8:
    IPv4 Address. . . . . . . . . . . : 192.168.160.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Thursday, July 16, 2026 9:52:28 PM
-   Lease Expires . . . . . . . . . . : Friday, July 17, 2026 5:07:28 AM
+   Lease Expires . . . . . . . . . . : Friday, July 17, 2026 5:07:27 AM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.160.254
    DHCPv6 IAID . . . . . . . . . . . : 318787670
@@ -285,15 +285,14 @@ $ dir
 
  Directory of D:\go\;nk
 
-07/17/2026  04:38 AM    <DIR>          .
+07/17/2026  04:39 AM    <DIR>          .
 07/17/2026  04:10 AM    <DIR>          ..
 07/17/2026  03:53 AM               348 hosts.lnk
 07/17/2026  03:49 AM        29,804,144 LnkMeMaybe-win-x64.zip
 03/04/2026  05:48 PM        67,769,689 LnkMeMaybe.exe
-07/17/2026  04:38 AM               582 System Update.lnk
 03/04/2026  05:47 PM            70,742 Titanis.Cli.xml
 03/04/2026  05:47 PM            80,118 Titanis.Core.xml
 03/04/2026  05:47 PM             3,436 Titanis.Reflection.xml
-               7 File(s)     97,729,059 bytes
+               6 File(s)     97,728,477 bytes
                2 Dir(s)  118,145,601,536 bytes free
 ---
