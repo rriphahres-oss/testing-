@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Fri, 17 Jul 2026 16:44:02 PKT
+Time: Fri, 17 Jul 2026 16:50:16 PKT
 
 $ whoami
 venom\35748
@@ -16,7 +16,7 @@ Registered Owner:              35748@students.riphah.edu.pk
 Registered Organization:       N/A
 Product ID:                    00330-50771-23435-AAOEM
 Original Install Date:         23/08/2025, 4:28:04 am
-System Boot Time:              28/06/2026, 3:25:55 pm
+System Boot Time:              17/07/2026, 4:45:14 pm
 System Manufacturer:           Dell Inc.
 System Model:                  Latitude 7480
 System Type:                   x64-based PC
@@ -30,10 +30,10 @@ System Locale:                 en-gb;English (United Kingdom)
 Input Locale:                  en-gb;English (United Kingdom)
 Time Zone:                     (UTC+05:00) Islamabad, Karachi
 Total Physical Memory:         16,230 MB
-Available Physical Memory:     7,413 MB
-Virtual Memory: Max Size:      21,211 MB
-Virtual Memory: Available:     10,080 MB
-Virtual Memory: In Use:        11,131 MB
+Available Physical Memory:     9,510 MB
+Virtual Memory: Max Size:      22,118 MB
+Virtual Memory: Available:     15,012 MB
+Virtual Memory: In Use:        7,106 MB
 Page File Location(s):         C:\pagefile.sys
 Domain:                        WORKGROUP
 Logon Server:                  \\VENOM
@@ -97,7 +97,6 @@ Windows IP Configuration
    Node Type . . . . . . . . . . . . : Mixed
    IP Routing Enabled. . . . . . . . : No
    WINS Proxy Enabled. . . . . . . . : No
-   DNS Suffix Search List. . . . . . : mshome.net
 
 Ethernet adapter Ethernet:
 
@@ -157,7 +156,7 @@ Ethernet adapter VMware Network Adapter VMnet2:
    Physical Address. . . . . . . . . : 00-50-56-C0-00-02
    DHCP Enabled. . . . . . . . . . . : No
    Autoconfiguration Enabled . . . . : Yes
-   Link-local IPv6 Address . . . . . : fe80::1f99:6d6c:d5c3:8016%19(Preferred) 
+   Link-local IPv6 Address . . . . . : fe80::1f99:6d6c:d5c3:8016%20(Preferred) 
    IPv4 Address. . . . . . . . . . . : 192.168.176.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Default Gateway . . . . . . . . . : 
@@ -187,16 +186,16 @@ Wireless LAN adapter WiFi:
    Physical Address. . . . . . . . . : 28-C6-3F-31-BF-96
    DHCP Enabled. . . . . . . . . . . : Yes
    Autoconfiguration Enabled . . . . : Yes
-   Link-local IPv6 Address . . . . . : fe80::f1c3:e1ae:7be6:f5bf%21(Preferred) 
+   Link-local IPv6 Address . . . . . : fe80::f1c3:e1ae:7be6:f5bf%22(Preferred) 
    IPv4 Address. . . . . . . . . . . : 192.168.137.229(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Lease Obtained. . . . . . . . . . : Friday, 17 July 2026 2:18:26 pm
-   Lease Expires . . . . . . . . . . : Friday, 24 July 2026 4:42:13 pm
+   Lease Obtained. . . . . . . . . . : Friday, 17 July 2026 4:45:41 pm
+   Lease Expires . . . . . . . . . . : Friday, 24 July 2026 4:45:40 pm
    Default Gateway . . . . . . . . . : 192.168.137.1
    DHCP Server . . . . . . . . . . . : 192.168.137.1
    DHCPv6 IAID . . . . . . . . . . . : 170444351
    DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-30-3A-B9-53-A4-4C-C8-71-8C-B9
-   DNS Servers . . . . . . . . . . . : fe80::e9d6:9000:f74b:a0c6%21
+   DNS Servers . . . . . . . . . . . : fe80::e9d6:9000:f74b:a0c6%22
                                        192.168.137.1
    NetBIOS over Tcpip. . . . . . . . : Enabled
    Connection-specific DNS Suffix Search List :
@@ -212,12 +211,40 @@ Ethernet adapter Bluetooth Network Connection:
    Autoconfiguration Enabled . . . . : Yes
 ---
 $ dir
- Volume in drive E is ESD-USB
- Volume Serial Number is CE37-A9DF
+ Volume in drive C has no label.
+ Volume Serial Number is 42D4-33AF
 
- Directory of E:\
+ Directory of C:\Users\35748\Videos
 
+17/07/2026  04:46 pm    <DIR>          .
+07/07/2026  11:37 pm    <DIR>          ..
+28/04/2026  02:13 am           158,496 AFTEL.exe
+27/04/2026  09:51 pm            77,098 AFTEL_UPDATE.zip
+29/06/2026  10:31 am         6,426,624 agent.exe
+01/07/2026  11:24 pm         2,655,504 agent.zip
+28/06/2026  04:10 pm    <DIR>          AnyDesk
+01/05/2026  03:50 pm         1,988,756 archive.zip
+16/06/2026  02:48 pm    <DIR>          Captures
+06/07/2026  04:26 am             2,195 debug.hta
+12/06/2026  05:19 pm    <DIR>          https_web.whatsapp.com_0.indexeddb.leveldb
+12/06/2026  03:41 pm        24,430,552 https_web.whatsapp.com_0.indexeddb.leveldb.zip
+12/06/2026  05:21 pm    <DIR>          leveldb
+12/06/2026  03:41 pm         2,419,190 leveldb.zip
+12/05/2026  10:45 pm    <DIR>          New folder
+28/01/2026  04:34 pm        13,246,954 New folder (1).rar
+18/08/2020  03:52 pm         4,839,076 Plant_1_Generation_Data.csv
+18/08/2020  03:52 pm           287,847 Plant_1_Weather_Sensor_Data.csv
+18/08/2020  03:52 pm         5,805,157 Plant_2_Generation_Data.csv
+18/08/2020  03:52 pm           301,443 Plant_2_Weather_Sensor_Data.csv
+30/06/2026  12:34 pm    <DIR>          Screen.Recorder
+30/04/2026  04:44 pm    <DIR>          srccn
+30/04/2026  04:48 pm           319,733 srccn.zip
+28/01/2026  03:46 pm    <DIR>          SSH
 17/07/2026  04:39 am               513 System Update.lnk
-               1 File(s)            513 bytes
-               0 Dir(s)  34,346,991,616 bytes free
+11/03/2026  09:16 am         2,128,064 VPN.exe
+11/03/2026  09:38 am         1,601,020 VPN.zip
+11/03/2026  09:28 am         1,594,259 VPN_SETUP (3).zip
+09/03/2026  03:20 pm         2,119,070 VPN_SETUP.exe
+              19 File(s)     70,401,551 bytes
+              10 Dir(s)   9,788,723,200 bytes free
 ---
