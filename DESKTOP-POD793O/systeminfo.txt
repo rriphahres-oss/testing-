@@ -2,7 +2,7 @@
 ==================================================
 
 --- Basic System Info ---
-Time: Thu, 16 Jul 2026 22:30:03 PDT
+Time: Thu, 16 Jul 2026 22:52:56 PDT
 Hostname: DESKTOP-POD793O
 OS: windows
 Architecture: amd64
@@ -23,7 +23,6 @@ OS=Windows_NT
 SystemRoot=C:\WINDOWS
 TEMP=C:\Users\HPZBOO~1\AppData\Local\Temp
 TMP=C:\Users\HPZBOO~1\AppData\Local\Temp
-PATH=C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\HP ZBook\AppData\Local\Programs\Python\Python311-32\Scripts\;C:\Users\HP ZBook\AppData\Local\Programs\Python\Python311-32\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\HP ZBook\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\HP ZBook\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\HP ZBook\AppData\Local\Python\bin;C:\MinGW\bin;C:\mingw64\bin;C:\Users\HP ZBook\.dotnet\tools;C:\Users\HP ZBook\AppData\Roaming\npm;C:\Users\HP ZBook\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP ZBook\go\bin;C:\Users\HP ZBook\AppData\Local\Microsoft\WinGet\Packages\koalaman.shellcheck_Microsoft.Winget.Source_8wekyb3d8bbwe;;C:\Users\HP ZBook\Downloads\nim-2.2.10\bin;C:\Users\HP ZBook\.nimble\bin
 
 --- Command Outputs ---
 
@@ -31,21 +30,21 @@ PATH=C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files 
 Output:
 DESKTOP-POD793O
 
-(Exit code: 0, Duration: 96.8795ms)
+(Exit code: 0, Duration: 121.0024ms)
 
 [whoami]
 Output:
 desktop-pod793o\hp zbook
 
-(Exit code: 0, Duration: 76.7831ms)
+(Exit code: 0, Duration: 120.7772ms)
 
 [ipconfig /all]
-ERROR: command timed out after 60 seconds (exit code: -1, duration: 1m0.0010959s)
+ERROR: command timed out after 60 seconds (exit code: -1, duration: 1m0.0003017s)
 
 [systeminfo (full)]
-ERROR: command timed out after 120 seconds (exit code: -1, duration: 2m0.0005508s)
+ERROR: command timed out after 120 seconds (exit code: -1, duration: 2m0.0003735s)
 
-[systeminfo - OS Name only (fallback)]
+[systeminfo - OS Name only]
 Output:
 OS Name:                       Microsoft Windows 11 Pro
 
@@ -55,6 +54,7 @@ Output:
 
 Microsoft Windows [Version 10.0.26200.8524]
 
+(Exit code: 0, Duration: 126.4752ms)
 
-[tasklist - top processes]
-ERROR: command timed out after 20 seconds
+[tasklist (top 20)]
+ERROR: command timed out after 20 seconds (exit code: -1, duration: 20.0001017s)
