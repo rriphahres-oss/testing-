@@ -1,1 +1,25 @@
-test
+=== System Information ===
+Time: Thu, 16 Jul 2026 21:59:49 PDT
+Hostname: DESKTOP-POD793O
+OS: windows
+Arch: amd64
+Go Version: go1.26.3
+User: DESKTOP-POD793O\HP ZBook
+User(WinAPI): HP ZBook
+
+--- hostname ---
+
+--- whoami ---
+
+--- ipconfig /all ---
+
+--- systeminfo (OS Name only) ---
+
+--- Environment (selected) ---
+COMPUTERNAME=DESKTOP-POD793O
+USERDOMAIN=DESKTOP-POD793O
+USERNAME=HP ZBook
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+PROCESSOR_ARCHITECTURE=AMD64
+NUMBER_OF_PROCESSORS=12
+OS=Windows_NT
