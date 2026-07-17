@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Thu, 16 Jul 2026 23:52:43 PDT
+Time: Thu, 16 Jul 2026 23:53:23 PDT
 
 $ whoami
 desktop-pod793o\hp zbook
@@ -30,10 +30,10 @@ System Locale:                 en-us;English (United States)
 Input Locale:                  en-us;English (United States)
 Time Zone:                     (UTC-08:00) Pacific Time (US & Canada)
 Total Physical Memory:         16,191 MB
-Available Physical Memory:     1,841 MB
+Available Physical Memory:     1,746 MB
 Virtual Memory: Max Size:      36,754 MB
-Virtual Memory: Available:     3,216 MB
-Virtual Memory: In Use:        33,538 MB
+Virtual Memory: Available:     3,159 MB
+Virtual Memory: In Use:        33,595 MB
 Page File Location(s):         C:\pagefile.sys
 Domain:                        WORKGROUP
 Logon Server:                  \\DESKTOP-POD793O
@@ -158,7 +158,7 @@ Ethernet adapter Ethernet:
    IPv4 Address. . . . . . . . . . . : 192.168.18.18(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Thursday, July 16, 2026 9:52:48 PM
-   Lease Expires . . . . . . . . . . : Friday, July 17, 2026 12:22:46 AM
+   Lease Expires . . . . . . . . . . : Friday, July 17, 2026 12:52:47 AM
    Default Gateway . . . . . . . . . : 192.168.18.1
    DHCP Server . . . . . . . . . . . : 192.168.18.1
    DNS Servers . . . . . . . . . . . : 192.168.18.1
