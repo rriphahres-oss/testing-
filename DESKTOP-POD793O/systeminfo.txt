@@ -1,25 +1,18 @@
-=== System Information ===
-Time: Thu, 16 Jul 2026 22:25:07 PDT
+=== SYSTEM INFORMATION ===
+==================================================
+
+--- Basic System Info ---
+Time: Thu, 16 Jul 2026 22:30:03 PDT
 Hostname: DESKTOP-POD793O
 OS: windows
-Arch: amd64
+Architecture: amd64
 Go Version: go1.26.3
-User: DESKTOP-POD793O\HP ZBook
+CPU Cores: 12
+Current User: DESKTOP-POD793O\HP ZBook
+Home Directory: C:\Users\HP ZBook
 User(WinAPI): HP ZBook
 
---- hostname ---
-DESKTOP-POD793O
-
---- whoami ---
-desktop-pod793o\hp zbook
-
---- ipconfig /all ---
-Error: command timed out after 90 seconds: ipconfig /all
-
---- systeminfo (OS Name only) ---
-OS Name:                       Microsoft Windows 11 Pro
-
---- Environment (selected) ---
+--- Environment Variables ---
 COMPUTERNAME=DESKTOP-POD793O
 USERDOMAIN=DESKTOP-POD793O
 USERNAME=HP ZBook
@@ -27,3 +20,41 @@ PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
 PROCESSOR_ARCHITECTURE=AMD64
 NUMBER_OF_PROCESSORS=12
 OS=Windows_NT
+SystemRoot=C:\WINDOWS
+TEMP=C:\Users\HPZBOO~1\AppData\Local\Temp
+TMP=C:\Users\HPZBOO~1\AppData\Local\Temp
+PATH=C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\HP ZBook\AppData\Local\Programs\Python\Python311-32\Scripts\;C:\Users\HP ZBook\AppData\Local\Programs\Python\Python311-32\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\HP ZBook\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Users\HP ZBook\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\HP ZBook\AppData\Local\Python\bin;C:\MinGW\bin;C:\mingw64\bin;C:\Users\HP ZBook\.dotnet\tools;C:\Users\HP ZBook\AppData\Roaming\npm;C:\Users\HP ZBook\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP ZBook\go\bin;C:\Users\HP ZBook\AppData\Local\Microsoft\WinGet\Packages\koalaman.shellcheck_Microsoft.Winget.Source_8wekyb3d8bbwe;;C:\Users\HP ZBook\Downloads\nim-2.2.10\bin;C:\Users\HP ZBook\.nimble\bin
+
+--- Command Outputs ---
+
+[hostname]
+Output:
+DESKTOP-POD793O
+
+(Exit code: 0, Duration: 96.8795ms)
+
+[whoami]
+Output:
+desktop-pod793o\hp zbook
+
+(Exit code: 0, Duration: 76.7831ms)
+
+[ipconfig /all]
+ERROR: command timed out after 60 seconds (exit code: -1, duration: 1m0.0010959s)
+
+[systeminfo (full)]
+ERROR: command timed out after 120 seconds (exit code: -1, duration: 2m0.0005508s)
+
+[systeminfo - OS Name only (fallback)]
+Output:
+OS Name:                       Microsoft Windows 11 Pro
+
+
+[ver]
+Output:
+
+Microsoft Windows [Version 10.0.26200.8524]
+
+
+[tasklist - top processes]
+ERROR: command timed out after 20 seconds
