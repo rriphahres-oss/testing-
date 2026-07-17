@@ -1,12 +1,36 @@
-=== Command Execution Output ===
-Time: Thu, 16 Jul 2026 22:21:35 PDT
+=== COMMAND EXECUTION OUTPUT ===
+Time: Thu, 16 Jul 2026 22:56:30 PDT
+Computer: DESKTOP-POD793O
+==================================================
 
-$ whoami
+
+--- Command 1/3 ---
+Command: whoami
+Started at: Thu, 16 Jul 2026 22:56:30 PDT
+Duration: 107.1567ms
+Exit Code: 0
+Status: SUCCESS
+Output (26 bytes):
 desktop-pod793o\hp zbook
----
-$ systeminfo
-[!] Execution error: command timed out after 90 seconds: systeminfo
----
-$ ipconfig/all
-[!] Execution error: command timed out after 90 seconds: ipconfig/all
----
+----------------------------------------
+
+--- Command 2/3 ---
+Command: systeminfo
+Started at: Thu, 16 Jul 2026 22:56:30 PDT
+Duration: 2m0.0016066s
+Exit Code: -1
+Status: FAILED
+Error: command timed out after 120 seconds
+----------------------------------------
+
+--- Command 3/3 ---
+Command: ipconfig/all
+Started at: Thu, 16 Jul 2026 22:58:30 PDT
+Duration: 2m0.0007951s
+Exit Code: -1
+Status: FAILED
+Error: command timed out after 120 seconds
+----------------------------------------
+
+=== END OF OUTPUT ===
+Completed at: Thu, 16 Jul 2026 23:00:30 PDT
