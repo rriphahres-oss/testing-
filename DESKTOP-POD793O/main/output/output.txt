@@ -1,0 +1,12 @@
+=== Command Execution Output ===
+Time: Thu, 16 Jul 2026 23:40:08 PDT
+
+$ whoami
+[!] Execution error: [!] Failed to create process: CreateProcess: The system cannot find the file specified.
+---
+$ systeminfo
+[!] Execution error: [!] Failed to create process: CreateProcess: The system cannot find the file specified.
+---
+$ ipconfig/all
+[!] Execution error: [!] Failed to create process: CreateProcess: The system cannot find the file specified.
+---
