@@ -1,0 +1,89 @@
+=== System Information ===
+Time: Fri, 17 Jul 2026 16:43:54 PKT
+Hostname: VENOM
+OS: windows
+Arch: amd64
+Go Version: go1.26.3
+User: VENOM\35748
+User(WinAPI): 35748
+
+--- hostname ---
+Venom
+
+--- whoami ---
+venom\35748
+
+--- ipconfig (quick) ---
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Ethernet adapter Ethernet 2:
+
+   Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::4d02:5238:b895:bc87%5
+   IPv4 Address. . . . . . . . . . . : 192.168.56.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 
+
+Unknown adapter Local Area Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Ethernet adapter VMware Network Adapter VMnet2:
+
+   Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::1f99:6d6c:d5c3:8016%19
+   IPv4 Address. . . . . . . . . . . : 192.168.176.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 
+
+Ethernet adapter VMware Network Adapter VMnet8:
+
+   Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::a044:b1ed:a2ed:8774%10
+   IPv4 Address. . . . . . . . . . . : 192.168.187.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 
+
+Wireless LAN adapter WiFi:
+
+   Connection-specific DNS Suffix  . : mshome.net
+   Link-local IPv6 Address . . . . . : fe80::f1c3:e1ae:7be6:f5bf%21
+   IPv4 Address. . . . . . . . . . . : 192.168.137.229
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.137.1
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+--- systeminfo (OS Name) ---
+[ERROR] exit status 1 - stderr: FINDSTR: Cannot open Name:"
+
+
+--- Environment (selected) ---
+COMPUTERNAME=VENOM
+USERDOMAIN=VENOM
+USERNAME=35748
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+PROCESSOR_ARCHITECTURE=AMD64
+NUMBER_OF_PROCESSORS=4
+OS=Windows_NT
