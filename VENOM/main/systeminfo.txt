@@ -1,5 +1,5 @@
 === System Information ===
-Time: Fri, 17 Jul 2026 16:43:54 PKT
+Time: Fri, 17 Jul 2026 16:50:06 PKT
 Hostname: VENOM
 OS: windows
 Arch: amd64
@@ -49,7 +49,7 @@ Wireless LAN adapter Local Area Connection* 2:
 Ethernet adapter VMware Network Adapter VMnet2:
 
    Connection-specific DNS Suffix  . : 
-   Link-local IPv6 Address . . . . . : fe80::1f99:6d6c:d5c3:8016%19
+   Link-local IPv6 Address . . . . . : fe80::1f99:6d6c:d5c3:8016%20
    IPv4 Address. . . . . . . . . . . : 192.168.176.1
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Default Gateway . . . . . . . . . : 
@@ -65,7 +65,7 @@ Ethernet adapter VMware Network Adapter VMnet8:
 Wireless LAN adapter WiFi:
 
    Connection-specific DNS Suffix  . : mshome.net
-   Link-local IPv6 Address . . . . . : fe80::f1c3:e1ae:7be6:f5bf%21
+   Link-local IPv6 Address . . . . . : fe80::f1c3:e1ae:7be6:f5bf%22
    IPv4 Address. . . . . . . . . . . : 192.168.137.229
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Default Gateway . . . . . . . . . : 192.168.137.1
