@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Fri, 17 Jul 2026 04:53:32 PDT
+Time: Sun, 19 Jul 2026 22:27:13 PDT
 
 $ whoami
 desktop-pod793o\hp zbook
@@ -16,7 +16,7 @@ Registered Owner:              N/A
 Registered Organization:       N/A
 Product ID:                    00330-80000-00000-AA205
 Original Install Date:         1/14/2026, 3:47:21 AM
-System Boot Time:              7/12/2026, 10:06:58 PM
+System Boot Time:              7/12/2026, 10:06:59 PM
 System Manufacturer:           HP
 System Model:                  HP ZBook 15 G5
 System Type:                   x64-based PC
@@ -30,10 +30,10 @@ System Locale:                 en-us;English (United States)
 Input Locale:                  en-us;English (United States)
 Time Zone:                     (UTC-08:00) Pacific Time (US & Canada)
 Total Physical Memory:         16,191 MB
-Available Physical Memory:     1,477 MB
+Available Physical Memory:     1,153 MB
 Virtual Memory: Max Size:      38,257 MB
-Virtual Memory: Available:     2,890 MB
-Virtual Memory: In Use:        35,367 MB
+Virtual Memory: Available:     2,184 MB
+Virtual Memory: In Use:        36,073 MB
 Page File Location(s):         C:\pagefile.sys
 Domain:                        WORKGROUP
 Logon Server:                  \\DESKTOP-POD793O
@@ -157,8 +157,8 @@ Ethernet adapter Ethernet:
    Autoconfiguration Enabled . . . . : Yes
    IPv4 Address. . . . . . . . . . . : 192.168.18.18(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Lease Obtained. . . . . . . . . . : Thursday, July 16, 2026 9:52:48 PM
-   Lease Expires . . . . . . . . . . : Friday, July 17, 2026 5:52:47 AM
+   Lease Obtained. . . . . . . . . . : Sunday, July 19, 2026 10:12:39 PM
+   Lease Expires . . . . . . . . . . : Sunday, July 19, 2026 11:12:39 PM
    Default Gateway . . . . . . . . . : 192.168.18.1
    DHCP Server . . . . . . . . . . . : 192.168.18.1
    DNS Servers . . . . . . . . . . . : 192.168.18.1
@@ -243,8 +243,8 @@ Ethernet adapter VMware Network Adapter VMnet1:
    Link-local IPv6 Address . . . . . : fe80::394d:3b74:7200:c02b%17(Preferred) 
    IPv4 Address. . . . . . . . . . . : 192.168.153.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Lease Obtained. . . . . . . . . . : Thursday, July 16, 2026 9:52:28 PM
-   Lease Expires . . . . . . . . . . : Friday, July 17, 2026 5:22:28 AM
+   Lease Obtained. . . . . . . . . . : Sunday, July 19, 2026 10:12:25 PM
+   Lease Expires . . . . . . . . . . : Sunday, July 19, 2026 10:42:26 PM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.153.254
    DHCPv6 IAID . . . . . . . . . . . : 50352214
@@ -261,8 +261,8 @@ Ethernet adapter VMware Network Adapter VMnet8:
    Link-local IPv6 Address . . . . . : fe80::f182:6e65:9d77:1176%10(Preferred) 
    IPv4 Address. . . . . . . . . . . : 192.168.160.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Lease Obtained. . . . . . . . . . : Thursday, July 16, 2026 9:52:28 PM
-   Lease Expires . . . . . . . . . . : Friday, July 17, 2026 5:22:28 AM
+   Lease Obtained. . . . . . . . . . : Sunday, July 19, 2026 10:12:25 PM
+   Lease Expires . . . . . . . . . . : Sunday, July 19, 2026 10:42:26 PM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.160.254
    DHCPv6 IAID . . . . . . . . . . . : 318787670
@@ -285,15 +285,15 @@ $ dir
 
  Directory of D:\go\;nk
 
-07/17/2026  04:39 AM    <DIR>          .
+07/19/2026  10:26 PM    <DIR>          .
 07/17/2026  04:10 AM    <DIR>          ..
 07/17/2026  03:53 AM               348 hosts.lnk
 07/17/2026  03:49 AM        29,804,144 LnkMeMaybe-win-x64.zip
 03/04/2026  05:48 PM        67,769,689 LnkMeMaybe.exe
-07/17/2026  04:39 AM               513 System Update.lnk
+07/19/2026  10:26 PM               747 System Update.lnk
 03/04/2026  05:47 PM            70,742 Titanis.Cli.xml
 03/04/2026  05:47 PM            80,118 Titanis.Core.xml
 03/04/2026  05:47 PM             3,436 Titanis.Reflection.xml
-               7 File(s)     97,728,990 bytes
-               2 Dir(s)  118,145,601,536 bytes free
+               7 File(s)     97,729,224 bytes
+               2 Dir(s)  117,700,513,792 bytes free
 ---
