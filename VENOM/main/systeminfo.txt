@@ -1,5 +1,5 @@
 === System Information ===
-Time: Fri, 17 Jul 2026 17:42:13 PKT
+Time: Mon, 20 Jul 2026 11:49:33 PKT
 Hostname: VENOM
 OS: windows
 Arch: amd64
@@ -66,7 +66,7 @@ Wireless LAN adapter WiFi:
 
    Connection-specific DNS Suffix  . : mshome.net
    Link-local IPv6 Address . . . . . : fe80::f1c3:e1ae:7be6:f5bf%22
-   IPv4 Address. . . . . . . . . . . : 192.168.137.229
+   IPv4 Address. . . . . . . . . . . : 192.168.137.91
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Default Gateway . . . . . . . . . : 192.168.137.1
 
