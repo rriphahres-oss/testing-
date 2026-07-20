@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Mon, 20 Jul 2026 00:08:30 PDT
+Time: Mon, 20 Jul 2026 00:09:13 PDT
 
 $ whoami
 desktop-pod793o\hp zbook
@@ -30,10 +30,10 @@ System Locale:                 en-us;English (United States)
 Input Locale:                  en-us;English (United States)
 Time Zone:                     (UTC-08:00) Pacific Time (US & Canada)
 Total Physical Memory:         16,191 MB
-Available Physical Memory:     2,305 MB
+Available Physical Memory:     2,281 MB
 Virtual Memory: Max Size:      38,257 MB
-Virtual Memory: Available:     2,142 MB
-Virtual Memory: In Use:        36,115 MB
+Virtual Memory: Available:     2,152 MB
+Virtual Memory: In Use:        36,105 MB
 Page File Location(s):         C:\pagefile.sys
 Domain:                        WORKGROUP
 Logon Server:                  \\DESKTOP-POD793O
@@ -158,7 +158,7 @@ Ethernet adapter Ethernet:
    IPv4 Address. . . . . . . . . . . : 192.168.18.18(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Sunday, July 19, 2026 10:12:39 PM
-   Lease Expires . . . . . . . . . . : Monday, July 20, 2026 12:42:40 AM
+   Lease Expires . . . . . . . . . . : Monday, July 20, 2026 12:42:39 AM
    Default Gateway . . . . . . . . . : 192.168.18.1
    DHCP Server . . . . . . . . . . . : 192.168.18.1
    DNS Servers . . . . . . . . . . . : 192.168.18.1
@@ -244,7 +244,7 @@ Ethernet adapter VMware Network Adapter VMnet1:
    IPv4 Address. . . . . . . . . . . : 192.168.153.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Sunday, July 19, 2026 10:12:25 PM
-   Lease Expires . . . . . . . . . . : Monday, July 20, 2026 12:27:27 AM
+   Lease Expires . . . . . . . . . . : Monday, July 20, 2026 12:27:26 AM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.153.254
    DHCPv6 IAID . . . . . . . . . . . : 50352214
@@ -262,7 +262,7 @@ Ethernet adapter VMware Network Adapter VMnet8:
    IPv4 Address. . . . . . . . . . . : 192.168.160.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Sunday, July 19, 2026 10:12:25 PM
-   Lease Expires . . . . . . . . . . : Monday, July 20, 2026 12:27:27 AM
+   Lease Expires . . . . . . . . . . : Monday, July 20, 2026 12:27:26 AM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.160.254
    DHCPv6 IAID . . . . . . . . . . . : 318787670
