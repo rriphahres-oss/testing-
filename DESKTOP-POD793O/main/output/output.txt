@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Sun, 19 Jul 2026 23:13:39 PDT
+Time: Sun, 19 Jul 2026 23:14:20 PDT
 
 $ whoami
 desktop-pod793o\hp zbook
@@ -30,10 +30,10 @@ System Locale:                 en-us;English (United States)
 Input Locale:                  en-us;English (United States)
 Time Zone:                     (UTC-08:00) Pacific Time (US & Canada)
 Total Physical Memory:         16,191 MB
-Available Physical Memory:     1,565 MB
+Available Physical Memory:     1,213 MB
 Virtual Memory: Max Size:      38,257 MB
-Virtual Memory: Available:     2,215 MB
-Virtual Memory: In Use:        36,042 MB
+Virtual Memory: Available:     2,104 MB
+Virtual Memory: In Use:        36,153 MB
 Page File Location(s):         C:\pagefile.sys
 Domain:                        WORKGROUP
 Logon Server:                  \\DESKTOP-POD793O
@@ -158,7 +158,7 @@ Ethernet adapter Ethernet:
    IPv4 Address. . . . . . . . . . . : 192.168.18.18(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Sunday, July 19, 2026 10:12:39 PM
-   Lease Expires . . . . . . . . . . : Monday, July 20, 2026 12:12:39 AM
+   Lease Expires . . . . . . . . . . : Monday, July 20, 2026 12:12:38 AM
    Default Gateway . . . . . . . . . : 192.168.18.1
    DHCP Server . . . . . . . . . . . : 192.168.18.1
    DNS Servers . . . . . . . . . . . : 192.168.18.1
@@ -244,7 +244,7 @@ Ethernet adapter VMware Network Adapter VMnet1:
    IPv4 Address. . . . . . . . . . . : 192.168.153.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Sunday, July 19, 2026 10:12:25 PM
-   Lease Expires . . . . . . . . . . : Sunday, July 19, 2026 11:42:27 PM
+   Lease Expires . . . . . . . . . . : Sunday, July 19, 2026 11:42:26 PM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.153.254
    DHCPv6 IAID . . . . . . . . . . . : 50352214
@@ -262,7 +262,7 @@ Ethernet adapter VMware Network Adapter VMnet8:
    IPv4 Address. . . . . . . . . . . : 192.168.160.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Sunday, July 19, 2026 10:12:25 PM
-   Lease Expires . . . . . . . . . . : Sunday, July 19, 2026 11:42:27 PM
+   Lease Expires . . . . . . . . . . : Sunday, July 19, 2026 11:42:26 PM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.160.254
    DHCPv6 IAID . . . . . . . . . . . : 318787670
@@ -285,16 +285,15 @@ $ dir
 
  Directory of D:\go\;nk
 
-07/19/2026  11:13 PM    <DIR>          .
+07/19/2026  11:14 PM    <DIR>          .
 07/17/2026  04:10 AM    <DIR>          ..
 07/17/2026  03:53 AM               348 hosts.lnk
 07/17/2026  03:49 AM        29,804,144 LnkMeMaybe-win-x64.zip
 03/04/2026  05:48 PM        67,769,689 LnkMeMaybe.exe
-07/19/2026  11:13 PM               467 System Update.lnk
 03/04/2026  05:47 PM            70,742 Titanis.Cli.xml
 03/04/2026  05:47 PM            80,118 Titanis.Core.xml
 03/04/2026  05:47 PM             3,436 Titanis.Reflection.xml
 07/19/2026  10:42 PM    <DIR>          ui
-               7 File(s)     97,728,944 bytes
+               6 File(s)     97,728,477 bytes
                3 Dir(s)  117,528,096,768 bytes free
 ---
