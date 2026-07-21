@@ -1,5 +1,5 @@
 === System Information ===
-Time: Mon, 20 Jul 2026 03:16:38 PDT
+Time: Mon, 20 Jul 2026 22:54:13 PDT
 Hostname: DESKTOP-POD793O
 OS: windows
 Arch: amd64
@@ -30,6 +30,13 @@ Ethernet adapter vEthernet (Default Switch):
 
    Connection-specific DNS Suffix  . : 
    IPv4 Address. . . . . . . . . . . : 172.29.144.1
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . : 
+
+Ethernet adapter vEthernet (WSL (Hyper-V firewall)):
+
+   Connection-specific DNS Suffix  . : 
+   IPv4 Address. . . . . . . . . . . : 172.29.176.1
    Subnet Mask . . . . . . . . . . . : 255.255.240.0
    Default Gateway . . . . . . . . . : 
 
@@ -95,13 +102,6 @@ Wireless LAN adapter Wi-Fi:
 
    Media State . . . . . . . . . . . : Media disconnected
    Connection-specific DNS Suffix  . : 
-
-Ethernet adapter vEthernet (WSL (Hyper-V firewall)):
-
-   Connection-specific DNS Suffix  . : 
-   IPv4 Address. . . . . . . . . . . : 172.29.176.1
-   Subnet Mask . . . . . . . . . . . : 255.255.240.0
-   Default Gateway . . . . . . . . . : 
 
 --- systeminfo (OS Name) ---
 [ERROR] exit status 1 - stderr: FINDSTR: Cannot open Name:"
