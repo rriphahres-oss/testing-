@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Mon, 20 Jul 2026 22:54:20 PDT
+Time: Tue, 21 Jul 2026 00:40:44 PDT
 
 $ whoami
 desktop-pod793o\hp zbook
@@ -30,10 +30,10 @@ System Locale:                 en-us;English (United States)
 Input Locale:                  en-us;English (United States)
 Time Zone:                     (UTC-08:00) Pacific Time (US & Canada)
 Total Physical Memory:         16,191 MB
-Available Physical Memory:     1,005 MB
+Available Physical Memory:     2,033 MB
 Virtual Memory: Max Size:      38,257 MB
-Virtual Memory: Available:     6,703 MB
-Virtual Memory: In Use:        31,554 MB
+Virtual Memory: Available:     6,282 MB
+Virtual Memory: In Use:        31,975 MB
 Page File Location(s):         C:\pagefile.sys
 Domain:                        WORKGROUP
 Logon Server:                  \\DESKTOP-POD793O
@@ -166,7 +166,7 @@ Ethernet adapter Ethernet:
    IPv4 Address. . . . . . . . . . . : 192.168.18.18(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Monday, July 20, 2026 9:39:14 PM
-   Lease Expires . . . . . . . . . . : Monday, July 20, 2026 11:39:10 PM
+   Lease Expires . . . . . . . . . . : Tuesday, July 21, 2026 1:39:11 AM
    Default Gateway . . . . . . . . . : 192.168.18.1
    DHCP Server . . . . . . . . . . . : 192.168.18.1
    DNS Servers . . . . . . . . . . . : 192.168.18.1
@@ -248,7 +248,7 @@ Ethernet adapter VMware Network Adapter VMnet1:
    IPv4 Address. . . . . . . . . . . : 192.168.153.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Monday, July 20, 2026 9:38:57 PM
-   Lease Expires . . . . . . . . . . : Monday, July 20, 2026 11:23:56 PM
+   Lease Expires . . . . . . . . . . : Tuesday, July 21, 2026 1:08:56 AM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.153.254
    NetBIOS over Tcpip. . . . . . . . : Enabled
@@ -263,7 +263,7 @@ Ethernet adapter VMware Network Adapter VMnet8:
    IPv4 Address. . . . . . . . . . . : 192.168.160.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Monday, July 20, 2026 9:38:57 PM
-   Lease Expires . . . . . . . . . . : Monday, July 20, 2026 11:23:56 PM
+   Lease Expires . . . . . . . . . . : Tuesday, July 21, 2026 1:08:56 AM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.160.254
    Primary WINS Server . . . . . . . : 192.168.160.2
@@ -279,14 +279,20 @@ Wireless LAN adapter Wi-Fi:
    Autoconfiguration Enabled . . . . : Yes
 ---
 $ dir
- Volume in drive C has no label.
- Volume Serial Number is E87A-8CD5
+ Volume in drive D is New Volume
+ Volume Serial Number is F284-B530
 
- Directory of C:\Users\HPZBOO~1\AppData\Local\Temp\Rar$DIa54612.37981.rartemp
+ Directory of D:\go
 
-07/20/2026  10:54 PM    <DIR>          .
-07/20/2026  10:54 PM    <DIR>          ..
-07/20/2026  12:12 AM               476 Employee_benefit.lnk
-               1 File(s)            476 bytes
-               2 Dir(s)     568,168,448 bytes free
+07/21/2026  12:40 AM    <DIR>          .
+07/20/2026  11:09 PM    <DIR>          ;nk
+07/21/2026  12:40 AM         6,606,848 agent.exe
+07/16/2026  05:27 AM         6,446,592 agent_debug.exe
+07/17/2026  04:11 AM    <DIR>          final
+07/21/2026  12:40 AM            33,198 git.go
+07/16/2026  05:17 AM                 0 git_.txt
+07/16/2026  10:34 PM                 0 go
+07/16/2026  05:21 AM                24 go.mod
+               6 File(s)     13,086,662 bytes
+               3 Dir(s)  121,802,801,152 bytes free
 ---
