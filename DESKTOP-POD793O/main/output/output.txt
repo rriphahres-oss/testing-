@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Mon, 20 Jul 2026 03:16:45 PDT
+Time: Mon, 20 Jul 2026 22:54:20 PDT
 
 $ whoami
 desktop-pod793o\hp zbook
@@ -30,10 +30,10 @@ System Locale:                 en-us;English (United States)
 Input Locale:                  en-us;English (United States)
 Time Zone:                     (UTC-08:00) Pacific Time (US & Canada)
 Total Physical Memory:         16,191 MB
-Available Physical Memory:     748 MB
+Available Physical Memory:     1,005 MB
 Virtual Memory: Max Size:      38,257 MB
-Virtual Memory: Available:     3,982 MB
-Virtual Memory: In Use:        34,275 MB
+Virtual Memory: Available:     6,703 MB
+Virtual Memory: In Use:        31,554 MB
 Page File Location(s):         C:\pagefile.sys
 Domain:                        WORKGROUP
 Logon Server:                  \\DESKTOP-POD793O
@@ -144,6 +144,18 @@ Ethernet adapter vEthernet (Default Switch):
    Default Gateway . . . . . . . . . : 
    NetBIOS over Tcpip. . . . . . . . : Enabled
 
+Ethernet adapter vEthernet (WSL (Hyper-V firewall)):
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Hyper-V Virtual Ethernet Adapter #2
+   Physical Address. . . . . . . . . : 00-15-5D-2B-6D-9F
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   IPv4 Address. . . . . . . . . . . : 172.29.176.1(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . : 
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
 Ethernet adapter Ethernet:
 
    Connection-specific DNS Suffix  . : 
@@ -153,8 +165,8 @@ Ethernet adapter Ethernet:
    Autoconfiguration Enabled . . . . : Yes
    IPv4 Address. . . . . . . . . . . : 192.168.18.18(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Lease Obtained. . . . . . . . . . : Sunday, July 19, 2026 10:12:39 PM
-   Lease Expires . . . . . . . . . . : Monday, July 20, 2026 4:12:39 AM
+   Lease Obtained. . . . . . . . . . : Monday, July 20, 2026 9:39:14 PM
+   Lease Expires . . . . . . . . . . : Monday, July 20, 2026 11:39:10 PM
    Default Gateway . . . . . . . . . : 192.168.18.1
    DHCP Server . . . . . . . . . . . : 192.168.18.1
    DNS Servers . . . . . . . . . . . : 192.168.18.1
@@ -235,8 +247,8 @@ Ethernet adapter VMware Network Adapter VMnet1:
    Autoconfiguration Enabled . . . . : Yes
    IPv4 Address. . . . . . . . . . . : 192.168.153.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Lease Obtained. . . . . . . . . . : Sunday, July 19, 2026 10:12:25 PM
-   Lease Expires . . . . . . . . . . : Monday, July 20, 2026 3:37:18 AM
+   Lease Obtained. . . . . . . . . . : Monday, July 20, 2026 9:38:57 PM
+   Lease Expires . . . . . . . . . . : Monday, July 20, 2026 11:23:56 PM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.153.254
    NetBIOS over Tcpip. . . . . . . . : Enabled
@@ -250,8 +262,8 @@ Ethernet adapter VMware Network Adapter VMnet8:
    Autoconfiguration Enabled . . . . : Yes
    IPv4 Address. . . . . . . . . . . : 192.168.160.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Lease Obtained. . . . . . . . . . : Sunday, July 19, 2026 10:12:25 PM
-   Lease Expires . . . . . . . . . . : Monday, July 20, 2026 3:37:22 AM
+   Lease Obtained. . . . . . . . . . : Monday, July 20, 2026 9:38:57 PM
+   Lease Expires . . . . . . . . . . : Monday, July 20, 2026 11:23:56 PM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.160.254
    Primary WINS Server . . . . . . . : 192.168.160.2
@@ -265,37 +277,16 @@ Wireless LAN adapter Wi-Fi:
    Physical Address. . . . . . . . . : 3C-F0-11-74-54-3C
    DHCP Enabled. . . . . . . . . . . : Yes
    Autoconfiguration Enabled . . . . : Yes
-
-Ethernet adapter vEthernet (WSL (Hyper-V firewall)):
-
-   Connection-specific DNS Suffix  . : 
-   Description . . . . . . . . . . . : Hyper-V Virtual Ethernet Adapter #2
-   Physical Address. . . . . . . . . : 00-15-5D-2B-6D-9F
-   DHCP Enabled. . . . . . . . . . . : No
-   Autoconfiguration Enabled . . . . : Yes
-   IPv4 Address. . . . . . . . . . . : 172.29.176.1(Preferred) 
-   Subnet Mask . . . . . . . . . . . : 255.255.240.0
-   Default Gateway . . . . . . . . . : 
-   NetBIOS over Tcpip. . . . . . . . : Enabled
 ---
 $ dir
- Volume in drive D is New Volume
- Volume Serial Number is F284-B530
+ Volume in drive C has no label.
+ Volume Serial Number is E87A-8CD5
 
- Directory of D:\go\;nk
+ Directory of C:\Users\HPZBOO~1\AppData\Local\Temp\Rar$DIa54612.37981.rartemp
 
-07/20/2026  02:00 AM    <DIR>          .
-07/17/2026  04:10 AM    <DIR>          ..
+07/20/2026  10:54 PM    <DIR>          .
+07/20/2026  10:54 PM    <DIR>          ..
 07/20/2026  12:12 AM               476 Employee_benefit.lnk
-07/20/2026  02:00 AM               470 Employee_benefit.zip
-07/17/2026  03:53 AM               348 hosts.lnk
-07/19/2026  11:17 PM            15,086 ico.ico
-07/17/2026  03:49 AM        29,804,144 LnkMeMaybe-win-x64.zip
-03/04/2026  05:48 PM        67,769,689 LnkMeMaybe.exe
-03/04/2026  05:47 PM            70,742 Titanis.Cli.xml
-03/04/2026  05:47 PM            80,118 Titanis.Core.xml
-03/04/2026  05:47 PM             3,436 Titanis.Reflection.xml
-07/19/2026  10:42 PM    <DIR>          ui
-               9 File(s)     97,744,509 bytes
-               3 Dir(s)  121,825,480,704 bytes free
+               1 File(s)            476 bytes
+               2 Dir(s)     568,168,448 bytes free
 ---
