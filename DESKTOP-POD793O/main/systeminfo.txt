@@ -1,5 +1,5 @@
 === System Information ===
-Time: Tue, 21 Jul 2026 00:40:36 PDT
+Time: Thu, 23 Jul 2026 00:08:11 PDT
 Hostname: DESKTOP-POD793O
 OS: windows
 Arch: amd64
@@ -18,17 +18,10 @@ desktop-pod793o\hp zbook
 Windows IP Configuration
 
 
-Unknown adapter NordLynx:
-
-   Connection-specific DNS Suffix  . : 
-   Link-local IPv6 Address . . . . . : fe80::9d9c:d069:2079:ca0a%36
-   IPv4 Address. . . . . . . . . . . : 10.5.0.2
-   Subnet Mask . . . . . . . . . . . : 255.255.0.0
-   Default Gateway . . . . . . . . . : 10.5.0.1
-
 Ethernet adapter vEthernet (Default Switch):
 
    Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::65eb:261a:6e0b:a35%29
    IPv4 Address. . . . . . . . . . . : 172.29.144.1
    Subnet Mask . . . . . . . . . . . : 255.255.240.0
    Default Gateway . . . . . . . . . : 
@@ -36,6 +29,7 @@ Ethernet adapter vEthernet (Default Switch):
 Ethernet adapter vEthernet (WSL (Hyper-V firewall)):
 
    Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::da32:a2e5:a6ad:39%86
    IPv4 Address. . . . . . . . . . . : 172.29.176.1
    Subnet Mask . . . . . . . . . . . : 255.255.240.0
    Default Gateway . . . . . . . . . : 
@@ -50,6 +44,7 @@ Ethernet adapter Ethernet:
 Ethernet adapter Ethernet 2:
 
    Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::4998:f146:184f:288%3
    IPv4 Address. . . . . . . . . . . : 192.168.56.1
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Default Gateway . . . . . . . . . : 
@@ -87,6 +82,7 @@ Wireless LAN adapter Local Area Connection* 2:
 Ethernet adapter VMware Network Adapter VMnet1:
 
    Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::394d:3b74:7200:c02b%17
    IPv4 Address. . . . . . . . . . . : 192.168.153.1
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Default Gateway . . . . . . . . . : 
@@ -94,6 +90,7 @@ Ethernet adapter VMware Network Adapter VMnet1:
 Ethernet adapter VMware Network Adapter VMnet8:
 
    Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::f182:6e65:9d77:1176%10
    IPv4 Address. . . . . . . . . . . : 192.168.160.1
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Default Gateway . . . . . . . . . : 
