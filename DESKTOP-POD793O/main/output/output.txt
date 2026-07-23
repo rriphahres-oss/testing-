@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Tue, 21 Jul 2026 00:40:44 PDT
+Time: Thu, 23 Jul 2026 00:08:17 PDT
 
 $ whoami
 desktop-pod793o\hp zbook
@@ -16,7 +16,7 @@ Registered Owner:              N/A
 Registered Organization:       N/A
 Product ID:                    00330-80000-00000-AA205
 Original Install Date:         1/14/2026, 3:47:21 AM
-System Boot Time:              7/12/2026, 10:06:59 PM
+System Boot Time:              7/12/2026, 10:07:01 PM
 System Manufacturer:           HP
 System Model:                  HP ZBook 15 G5
 System Type:                   x64-based PC
@@ -30,10 +30,10 @@ System Locale:                 en-us;English (United States)
 Input Locale:                  en-us;English (United States)
 Time Zone:                     (UTC-08:00) Pacific Time (US & Canada)
 Total Physical Memory:         16,191 MB
-Available Physical Memory:     2,033 MB
+Available Physical Memory:     1,122 MB
 Virtual Memory: Max Size:      38,257 MB
-Virtual Memory: Available:     6,282 MB
-Virtual Memory: In Use:        31,975 MB
+Virtual Memory: Available:     2,848 MB
+Virtual Memory: In Use:        35,409 MB
 Page File Location(s):         C:\pagefile.sys
 Domain:                        WORKGROUP
 Logon Server:                  \\DESKTOP-POD793O
@@ -44,7 +44,7 @@ Hotfix(s):                     6 Hotfix(s) Installed.
                                [04]: KB5094135
                                [05]: KB5095182
                                [06]: KB5120102
-Network Card(s):               10 NIC(s) Installed.
+Network Card(s):               9 NIC(s) Installed.
                                [01]: Intel(R) Ethernet Connection (7) I219-LM
                                      Connection Name: Ethernet
                                      DHCP Enabled:    Yes
@@ -59,6 +59,7 @@ Network Card(s):               10 NIC(s) Installed.
                                      DHCP Enabled:    No
                                      IP address(es)
                                      [01]: 192.168.56.1
+                                     [02]: fe80::4998:f146:184f:288
                                [04]: OpenVPN Data Channel Offload
                                      Connection Name: OpenVPN Data Channel Offload for Surfshark
                                      Status:          Media disconnected
@@ -68,12 +69,14 @@ Network Card(s):               10 NIC(s) Installed.
                                      DHCP Server:     192.168.153.254
                                      IP address(es)
                                      [01]: 192.168.153.1
+                                     [02]: fe80::394d:3b74:7200:c02b
                                [06]: VMware Virtual Ethernet Adapter for VMnet8
                                      Connection Name: VMware Network Adapter VMnet8
                                      DHCP Enabled:    Yes
                                      DHCP Server:     192.168.160.254
                                      IP address(es)
                                      [01]: 192.168.160.1
+                                     [02]: fe80::f182:6e65:9d77:1176
                                [07]: OpenVPN Data Channel Offload
                                      Connection Name: OpenVPN Data Channel Offload for NordVPN
                                      Status:          Media disconnected
@@ -83,12 +86,6 @@ Network Card(s):               10 NIC(s) Installed.
                                [09]: WLVPN Windows Tap Adapter
                                      Connection Name: Local Area Connection
                                      Status:          Media disconnected
-                               [10]: WireGuard Tunnel
-                                     Connection Name: NordLynx
-                                     DHCP Enabled:    No
-                                     IP address(es)
-                                     [01]: 10.5.0.2
-                                     [02]: fe80::9d9c:d069:2079:ca0a
 Virtualization-based security: Status: Running
                                Required Security Properties:
                                Available Security Properties:
@@ -117,21 +114,6 @@ Windows IP Configuration
    IP Routing Enabled. . . . . . . . : No
    WINS Proxy Enabled. . . . . . . . : No
 
-Unknown adapter NordLynx:
-
-   Connection-specific DNS Suffix  . : 
-   Description . . . . . . . . . . . : NordLynx Tunnel
-   Physical Address. . . . . . . . . : 
-   DHCP Enabled. . . . . . . . . . . : No
-   Autoconfiguration Enabled . . . . : Yes
-   Link-local IPv6 Address . . . . . : fe80::9d9c:d069:2079:ca0a%36(Preferred) 
-   IPv4 Address. . . . . . . . . . . : 10.5.0.2(Preferred) 
-   Subnet Mask . . . . . . . . . . . : 255.255.0.0
-   Default Gateway . . . . . . . . . : 10.5.0.1
-   DNS Servers . . . . . . . . . . . : 103.86.96.100
-                                       103.86.99.100
-   NetBIOS over Tcpip. . . . . . . . : Enabled
-
 Ethernet adapter vEthernet (Default Switch):
 
    Connection-specific DNS Suffix  . : 
@@ -139,9 +121,12 @@ Ethernet adapter vEthernet (Default Switch):
    Physical Address. . . . . . . . . : 00-15-5D-24-B0-25
    DHCP Enabled. . . . . . . . . . . : No
    Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::65eb:261a:6e0b:a35%29(Preferred) 
    IPv4 Address. . . . . . . . . . . : 172.29.144.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.240.0
    Default Gateway . . . . . . . . . : 
+   DHCPv6 IAID . . . . . . . . . . . : 486544733
+   DHCPv6 Client DUID. . . . . . . . : 00-01-01-00-30-F9-3B-D3-80-E8-2C-13-18-A1
    NetBIOS over Tcpip. . . . . . . . : Enabled
 
 Ethernet adapter vEthernet (WSL (Hyper-V firewall)):
@@ -151,9 +136,12 @@ Ethernet adapter vEthernet (WSL (Hyper-V firewall)):
    Physical Address. . . . . . . . . : 00-15-5D-2B-6D-9F
    DHCP Enabled. . . . . . . . . . . : No
    Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::da32:a2e5:a6ad:39%86(Preferred) 
    IPv4 Address. . . . . . . . . . . : 172.29.176.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.240.0
    Default Gateway . . . . . . . . . : 
+   DHCPv6 IAID . . . . . . . . . . . : 1442846045
+   DHCPv6 Client DUID. . . . . . . . : 00-01-01-00-30-F9-3B-D3-80-E8-2C-13-18-A1
    NetBIOS over Tcpip. . . . . . . . : Enabled
 
 Ethernet adapter Ethernet:
@@ -165,8 +153,8 @@ Ethernet adapter Ethernet:
    Autoconfiguration Enabled . . . . : Yes
    IPv4 Address. . . . . . . . . . . : 192.168.18.18(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Lease Obtained. . . . . . . . . . : Monday, July 20, 2026 9:39:14 PM
-   Lease Expires . . . . . . . . . . : Tuesday, July 21, 2026 1:39:11 AM
+   Lease Obtained. . . . . . . . . . : Wednesday, July 22, 2026 9:20:40 PM
+   Lease Expires . . . . . . . . . . : Thursday, July 23, 2026 12:50:38 AM
    Default Gateway . . . . . . . . . : 192.168.18.1
    DHCP Server . . . . . . . . . . . : 192.168.18.1
    DNS Servers . . . . . . . . . . . : 192.168.18.1
@@ -179,9 +167,12 @@ Ethernet adapter Ethernet 2:
    Physical Address. . . . . . . . . : 0A-00-27-00-00-03
    DHCP Enabled. . . . . . . . . . . : No
    Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::4998:f146:184f:288%3(Preferred) 
    IPv4 Address. . . . . . . . . . . : 192.168.56.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Default Gateway . . . . . . . . . : 
+   DHCPv6 IAID . . . . . . . . . . . : 621412391
+   DHCPv6 Client DUID. . . . . . . . : 00-01-01-00-30-F9-3B-D3-80-E8-2C-13-18-A1
    NetBIOS over Tcpip. . . . . . . . : Enabled
 
 Unknown adapter OpenVPN Data Channel Offload for Surfshark:
@@ -245,12 +236,15 @@ Ethernet adapter VMware Network Adapter VMnet1:
    Physical Address. . . . . . . . . : 00-50-56-C0-00-01
    DHCP Enabled. . . . . . . . . . . : Yes
    Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::394d:3b74:7200:c02b%17(Preferred) 
    IPv4 Address. . . . . . . . . . . : 192.168.153.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Lease Obtained. . . . . . . . . . : Monday, July 20, 2026 9:38:57 PM
-   Lease Expires . . . . . . . . . . : Tuesday, July 21, 2026 1:08:56 AM
+   Lease Obtained. . . . . . . . . . : Wednesday, July 22, 2026 9:20:22 PM
+   Lease Expires . . . . . . . . . . : Thursday, July 23, 2026 12:35:21 AM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.153.254
+   DHCPv6 IAID . . . . . . . . . . . : 50352214
+   DHCPv6 Client DUID. . . . . . . . : 00-01-01-00-30-F9-3B-D3-80-E8-2C-13-18-A1
    NetBIOS over Tcpip. . . . . . . . : Enabled
 
 Ethernet adapter VMware Network Adapter VMnet8:
@@ -260,12 +254,15 @@ Ethernet adapter VMware Network Adapter VMnet8:
    Physical Address. . . . . . . . . : 00-50-56-C0-00-08
    DHCP Enabled. . . . . . . . . . . : Yes
    Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::f182:6e65:9d77:1176%10(Preferred) 
    IPv4 Address. . . . . . . . . . . : 192.168.160.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Lease Obtained. . . . . . . . . . : Monday, July 20, 2026 9:38:57 PM
-   Lease Expires . . . . . . . . . . : Tuesday, July 21, 2026 1:08:56 AM
+   Lease Obtained. . . . . . . . . . : Wednesday, July 22, 2026 9:20:26 PM
+   Lease Expires . . . . . . . . . . : Thursday, July 23, 2026 12:35:23 AM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.160.254
+   DHCPv6 IAID . . . . . . . . . . . : 318787670
+   DHCPv6 Client DUID. . . . . . . . : 00-01-01-00-30-F9-3B-D3-80-E8-2C-13-18-A1
    Primary WINS Server . . . . . . . : 192.168.160.2
    NetBIOS over Tcpip. . . . . . . . : Enabled
 
@@ -284,15 +281,16 @@ $ dir
 
  Directory of D:\go
 
-07/21/2026  12:40 AM    <DIR>          .
+07/21/2026  12:41 AM    <DIR>          .
 07/20/2026  11:09 PM    <DIR>          ;nk
 07/21/2026  12:40 AM         6,606,848 agent.exe
+07/21/2026  12:41 AM         2,729,291 agent.zip
 07/16/2026  05:27 AM         6,446,592 agent_debug.exe
-07/17/2026  04:11 AM    <DIR>          final
+07/21/2026  12:42 AM    <DIR>          final
 07/21/2026  12:40 AM            33,198 git.go
 07/16/2026  05:17 AM                 0 git_.txt
 07/16/2026  10:34 PM                 0 go
 07/16/2026  05:21 AM                24 go.mod
-               6 File(s)     13,086,662 bytes
-               3 Dir(s)  121,802,801,152 bytes free
+               7 File(s)     15,815,953 bytes
+               3 Dir(s)  121,797,578,752 bytes free
 ---
