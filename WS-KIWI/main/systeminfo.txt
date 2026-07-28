@@ -1,0 +1,40 @@
+=== System Information ===
+Time: Tue, 28 Jul 2026 06:00:04 UTC
+Hostname: WS-KIWI
+OS: windows
+Arch: amd64
+Go Version: go1.26.3
+User: WS-KIWI\Harry Johnson
+User(WinAPI): Harry Johnson
+
+--- hostname ---
+WS-KIWI
+
+--- whoami ---
+ws-kiwi\harry johnson
+
+--- ipconfig (quick) ---
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::c270:ed64:bde0:ad2b%14
+   IPv4 Address. . . . . . . . . . . : 172.22.101.2
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 172.22.101.1
+
+--- systeminfo (OS Name) ---
+[ERROR] exit status 1 - stderr: FINDSTR: Cannot open Name:"
+
+
+--- Environment (selected) ---
+COMPUTERNAME=WS-KIWI
+USERDOMAIN=WS-KIWI
+USERNAME=Harry Johnson
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 42 Stepping 1, GenuineIntel
+PROCESSOR_ARCHITECTURE=AMD64
+NUMBER_OF_PROCESSORS=8
+OS=Windows_NT
