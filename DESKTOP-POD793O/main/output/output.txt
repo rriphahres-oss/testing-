@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Thu, 23 Jul 2026 00:08:17 PDT
+Time: Mon, 27 Jul 2026 22:55:30 PDT
 
 $ whoami
 desktop-pod793o\hp zbook
@@ -16,7 +16,7 @@ Registered Owner:              N/A
 Registered Organization:       N/A
 Product ID:                    00330-80000-00000-AA205
 Original Install Date:         1/14/2026, 3:47:21 AM
-System Boot Time:              7/12/2026, 10:07:01 PM
+System Boot Time:              7/12/2026, 10:07:02 PM
 System Manufacturer:           HP
 System Model:                  HP ZBook 15 G5
 System Type:                   x64-based PC
@@ -30,10 +30,10 @@ System Locale:                 en-us;English (United States)
 Input Locale:                  en-us;English (United States)
 Time Zone:                     (UTC-08:00) Pacific Time (US & Canada)
 Total Physical Memory:         16,191 MB
-Available Physical Memory:     1,122 MB
-Virtual Memory: Max Size:      38,257 MB
-Virtual Memory: Available:     2,848 MB
-Virtual Memory: In Use:        35,409 MB
+Available Physical Memory:     3,075 MB
+Virtual Memory: Max Size:      38,446 MB
+Virtual Memory: Available:     9,509 MB
+Virtual Memory: In Use:        28,937 MB
 Page File Location(s):         C:\pagefile.sys
 Domain:                        WORKGROUP
 Logon Server:                  \\DESKTOP-POD793O
@@ -153,8 +153,8 @@ Ethernet adapter Ethernet:
    Autoconfiguration Enabled . . . . : Yes
    IPv4 Address. . . . . . . . . . . : 192.168.18.18(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Lease Obtained. . . . . . . . . . : Wednesday, July 22, 2026 9:20:40 PM
-   Lease Expires . . . . . . . . . . : Thursday, July 23, 2026 12:50:38 AM
+   Lease Obtained. . . . . . . . . . : Monday, July 27, 2026 10:44:38 PM
+   Lease Expires . . . . . . . . . . : Monday, July 27, 2026 11:44:38 PM
    Default Gateway . . . . . . . . . : 192.168.18.1
    DHCP Server . . . . . . . . . . . : 192.168.18.1
    DNS Servers . . . . . . . . . . . : 192.168.18.1
@@ -239,8 +239,8 @@ Ethernet adapter VMware Network Adapter VMnet1:
    Link-local IPv6 Address . . . . . : fe80::394d:3b74:7200:c02b%17(Preferred) 
    IPv4 Address. . . . . . . . . . . : 192.168.153.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Lease Obtained. . . . . . . . . . : Wednesday, July 22, 2026 9:20:22 PM
-   Lease Expires . . . . . . . . . . : Thursday, July 23, 2026 12:35:21 AM
+   Lease Obtained. . . . . . . . . . : Monday, July 27, 2026 10:44:32 PM
+   Lease Expires . . . . . . . . . . : Monday, July 27, 2026 11:14:26 PM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.153.254
    DHCPv6 IAID . . . . . . . . . . . : 50352214
@@ -257,8 +257,8 @@ Ethernet adapter VMware Network Adapter VMnet8:
    Link-local IPv6 Address . . . . . : fe80::f182:6e65:9d77:1176%10(Preferred) 
    IPv4 Address. . . . . . . . . . . : 192.168.160.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Lease Obtained. . . . . . . . . . : Wednesday, July 22, 2026 9:20:26 PM
-   Lease Expires . . . . . . . . . . : Thursday, July 23, 2026 12:35:23 AM
+   Lease Obtained. . . . . . . . . . : Monday, July 27, 2026 10:44:24 PM
+   Lease Expires . . . . . . . . . . : Monday, July 27, 2026 11:14:25 PM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.160.254
    DHCPv6 IAID . . . . . . . . . . . : 318787670
@@ -281,16 +281,16 @@ $ dir
 
  Directory of D:\go
 
-07/21/2026  12:41 AM    <DIR>          .
-07/20/2026  11:09 PM    <DIR>          ;nk
-07/21/2026  12:40 AM         6,606,848 agent.exe
+07/27/2026  10:55 PM    <DIR>          .
+07/23/2026  02:23 AM    <DIR>          ;nk
+07/27/2026  10:55 PM         6,606,848 agent.exe
 07/21/2026  12:41 AM         2,729,291 agent.zip
 07/16/2026  05:27 AM         6,446,592 agent_debug.exe
-07/21/2026  12:42 AM    <DIR>          final
-07/21/2026  12:40 AM            33,198 git.go
+07/27/2026  10:51 PM    <DIR>          final
+07/27/2026  10:54 PM            31,774 git.go
 07/16/2026  05:17 AM                 0 git_.txt
 07/16/2026  10:34 PM                 0 go
 07/16/2026  05:21 AM                24 go.mod
-               7 File(s)     15,815,953 bytes
-               3 Dir(s)  121,797,578,752 bytes free
+               7 File(s)     15,814,529 bytes
+               3 Dir(s)  121,854,177,280 bytes free
 ---
