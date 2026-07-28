@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Tue, 28 Jul 2026 06:00:25 UTC
+Time: Tue, 28 Jul 2026 06:01:14 UTC
 
 $ whoami
 ws-kiwi\harry johnson
@@ -30,10 +30,10 @@ System Locale:             en-us;English (United States)
 Input Locale:              en-us;English (United States)
 Time Zone:                 (UTC) Coordinated Universal Time
 Total Physical Memory:     16,383 MB
-Available Physical Memory: 13,673 MB
+Available Physical Memory: 13,611 MB
 Virtual Memory: Max Size:  19,327 MB
-Virtual Memory: Available: 16,408 MB
-Virtual Memory: In Use:    2,919 MB
+Virtual Memory: Available: 16,428 MB
+Virtual Memory: In Use:    2,899 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    WORKGROUP
 Logon Server:              \\WS-KIWI
@@ -68,7 +68,7 @@ $ ipconfig/all
 Windows IP Configuration
 
    Host Name . . . . . . . . . . . . : WS-KIWI
-   Primary Dns Suffix  . . . . . . . : domain
+   Primary Dns Suffix  . . . . . . . : 
    Node Type . . . . . . . . . . . . : Hybrid
    IP Routing Enabled. . . . . . . . : No
    WINS Proxy Enabled. . . . . . . . : No
@@ -84,7 +84,7 @@ Ethernet adapter Ethernet:
    IPv4 Address. . . . . . . . . . . : 172.22.101.2(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : 26 July 2026 06:46:28
-   Lease Expires . . . . . . . . . . : 03 September 2162 19:28:49
+   Lease Expires . . . . . . . . . . : 03 September 2162 12:29:33
    Default Gateway . . . . . . . . . : 172.22.101.1
    DHCP Server . . . . . . . . . . . : 172.22.101.1
    DHCPv6 IAID . . . . . . . . . . . : 106058752
@@ -103,5 +103,5 @@ $ dir
 28/07/2026  05:59    <DIR>          ..
 28/07/2026  05:59         6,606,848 CxAudioSvc.exe
                1 File(s)      6,606,848 bytes
-               2 Dir(s)  86,453,809,152 bytes free
+               2 Dir(s)  86,447,370,240 bytes free
 ---
