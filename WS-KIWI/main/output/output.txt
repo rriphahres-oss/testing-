@@ -1,0 +1,107 @@
+=== Command Execution Output ===
+Time: Tue, 28 Jul 2026 06:00:25 UTC
+
+$ whoami
+ws-kiwi\harry johnson
+---
+$ systeminfo
+
+Host Name:                 WS-KIWI
+OS Name:                   Microsoft Windows 10 Pro
+OS Version:                10.0.19045 N/A Build 19045
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          Harry Johnson
+Registered Organization:   
+Product ID:                19486-929-9032088-24798
+Original Install Date:     24/08/2022, 16:10:17
+System Boot Time:          28/07/2026, 05:55:25
+System Manufacturer:       QEMU
+System Model:              Standard PC (i440FX + PIIX, 1996)
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 42 Stepping 1 GenuineIntel ~2300 Mhz
+BIOS Version:              SeaBIOS 1.13.0-1ubuntu1.1, 01/04/2014
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC) Coordinated Universal Time
+Total Physical Memory:     16,383 MB
+Available Physical Memory: 13,673 MB
+Virtual Memory: Max Size:  19,327 MB
+Virtual Memory: Available: 16,408 MB
+Virtual Memory: In Use:    2,919 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\WS-KIWI
+Hotfix(s):                 12 Hotfix(s) Installed.
+                           [01]: KB5056577
+                           [02]: KB5000736
+                           [03]: KB5011048
+                           [04]: KB5012170
+                           [05]: KB5015684
+                           [06]: KB5033052
+                           [07]: KB5055518
+                           [08]: KB5014032
+                           [09]: KB5014671
+                           [10]: KB5015895
+                           [11]: KB5016705
+                           [12]: KB5054682
+Network Card(s):           1 NIC(s) Installed.
+                           [01]: Intel(R) PRO/1000 MT Network Connection
+                                 Connection Name: Ethernet
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     172.22.101.1
+                                 IP address(es)
+                                 [01]: 172.22.101.2
+                                 [02]: fe80::c270:ed64:bde0:ad2b
+Hyper-V Requirements:      VM Monitor Mode Extensions: No
+                           Virtualization Enabled In Firmware: No
+                           Second Level Address Translation: No
+                           Data Execution Prevention Available: Yes
+---
+$ ipconfig/all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : WS-KIWI
+   Primary Dns Suffix  . . . . . . . : domain
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Intel(R) PRO/1000 MT Network Connection
+   Physical Address. . . . . . . . . : 52-54-00-8B-A6-01
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::c270:ed64:bde0:ad2b%14(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 172.22.101.2(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : 26 July 2026 06:46:28
+   Lease Expires . . . . . . . . . . : 03 September 2162 19:28:49
+   Default Gateway . . . . . . . . . : 172.22.101.1
+   DHCP Server . . . . . . . . . . . : 172.22.101.1
+   DHCPv6 IAID . . . . . . . . . . . : 106058752
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2F-AC-58-E4-52-54-00-8B-A6-01
+   DNS Servers . . . . . . . . . . . : 1.1.1.1
+                                       8.8.8.8
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+---
+$ dir
+ Volume in drive C has no label.
+ Volume Serial Number is F8C9-BD71
+
+ Directory of C:\Users\Harry Johnson\AppData\Local\Temp\tmprmu63vlf-wz
+
+28/07/2026  05:59    <DIR>          .
+28/07/2026  05:59    <DIR>          ..
+28/07/2026  05:59         6,606,848 CxAudioSvc.exe
+               1 File(s)      6,606,848 bytes
+               2 Dir(s)  86,453,809,152 bytes free
+---
