@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Tue, 28 Jul 2026 06:04:42 UTC
+Time: Tue, 28 Jul 2026 06:05:24 UTC
 
 $ whoami
 ws-turnip\harry johnson
@@ -30,10 +30,10 @@ System Locale:             en-us;English (United States)
 Input Locale:              en-us;English (United States)
 Time Zone:                 (UTC) Coordinated Universal Time
 Total Physical Memory:     16,383 MB
-Available Physical Memory: 13,771 MB
+Available Physical Memory: 13,713 MB
 Virtual Memory: Max Size:  19,327 MB
-Virtual Memory: Available: 16,607 MB
-Virtual Memory: In Use:    2,720 MB
+Virtual Memory: Available: 16,547 MB
+Virtual Memory: In Use:    2,780 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    WORKGROUP
 Logon Server:              \\WS-TURNIP
@@ -84,7 +84,7 @@ Ethernet adapter Ethernet:
    IPv4 Address. . . . . . . . . . . : 172.22.107.2(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : 26 July 2026 07:37:41
-   Lease Expires . . . . . . . . . . : 03 September 2162 12:33:01
+   Lease Expires . . . . . . . . . . : 03 September 2162 12:33:44
    Default Gateway . . . . . . . . . : 172.22.107.1
    DHCP Server . . . . . . . . . . . : 172.22.107.1
    DHCPv6 IAID . . . . . . . . . . . : 106058752
@@ -103,5 +103,5 @@ $ dir
 28/07/2026  06:02    <DIR>          ..
 28/07/2026  06:02         6,606,848 CxAudioSvc.exe
                1 File(s)      6,606,848 bytes
-               2 Dir(s)  86,450,311,168 bytes free
+               2 Dir(s)  86,438,707,200 bytes free
 ---
