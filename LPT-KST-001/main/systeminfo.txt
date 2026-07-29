@@ -1,5 +1,5 @@
 === System Information ===
-Time: Wed, 29 Jul 2026 08:20:54 +0430
+Time: Wed, 29 Jul 2026 08:21:41 +0430
 Hostname: LPT-KST-001
 OS: windows
 Arch: amd64
@@ -41,14 +41,6 @@ Wireless LAN adapter Local Area Connection* 1:
    Media State . . . . . . . . . . . : Media disconnected
    Connection-specific DNS Suffix  . : 
 
-Wireless LAN adapter Local Area Connection* 11:
-
-   Connection-specific DNS Suffix  . : 
-   Link-local IPv6 Address . . . . . : fe80::6a24:43b:76ad:8451%20
-   IPv4 Address. . . . . . . . . . . : 192.168.137.1
-   Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Default Gateway . . . . . . . . . : 
-
 Ethernet adapter VMware Network Adapter VMnet1:
 
    Connection-specific DNS Suffix  . : 
@@ -62,6 +54,14 @@ Ethernet adapter VMware Network Adapter VMnet8:
    Connection-specific DNS Suffix  . : 
    Link-local IPv6 Address . . . . . : fe80::f728:e636:a7d3:f133%5
    IPv4 Address. . . . . . . . . . . : 192.168.229.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 
+
+Wireless LAN adapter Local Area Connection* 11:
+
+   Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::6a24:43b:76ad:8451%20
+   IPv4 Address. . . . . . . . . . . : 192.168.137.1
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Default Gateway . . . . . . . . . : 
 
