@@ -1,0 +1,40 @@
+=== System Information ===
+Time: Wed, 29 Jul 2026 15:00:53 CEST
+Hostname: GINEVRAUMBI
+OS: windows
+Arch: amd64
+Go Version: go1.26.3
+User: GINEVRAUMBI\Administrator
+User(WinAPI): Administrator
+
+--- hostname ---
+Ginevraumbi
+
+--- whoami ---
+ginevraumbi\administrator
+
+--- ipconfig (quick) ---
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet 3:
+
+   Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::dd35:ef21:9e4f:f75c%14
+   IPv4 Address. . . . . . . . . . . : 192.168.14.20
+   Subnet Mask . . . . . . . . . . . : 255.255.252.0
+   Default Gateway . . . . . . . . . : 192.168.12.1
+
+--- systeminfo (OS Name) ---
+[ERROR] exit status 1 - stderr: FINDSTR: Cannot open Name:"
+
+
+--- Environment (selected) ---
+COMPUTERNAME=GINEVRAUMBI
+USERDOMAIN=GINEVRAUMBI
+USERNAME=Administrator
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 63 Stepping 2, GenuineIntel
+PROCESSOR_ARCHITECTURE=AMD64
+NUMBER_OF_PROCESSORS=2
+OS=Windows_NT
