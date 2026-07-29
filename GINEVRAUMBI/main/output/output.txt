@@ -1,0 +1,139 @@
+=== Command Execution Output ===
+Time: Wed, 29 Jul 2026 15:01:03 CEST
+
+$ whoami
+ginevraumbi\administrator
+---
+$ systeminfo
+
+Host Name:                 GINEVRAUMBI
+OS Name:                   Microsoft Windows 10 Enterprise
+OS Version:                10.0.19042 N/A Build 19042
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          Ginevraumbi
+Registered Organization:   
+Product ID:                00329-00000-00003-AA258
+Original Install Date:     1/29/2021, 9:27:31 PM
+System Boot Time:          7/29/2026, 3:00:03 PM
+System Manufacturer:       Not Apple Inc.
+System Model:              HP Elite Tower 800 G9 Desktop PC
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 63 Stepping 2 GenuineIntel ~2400 Mhz
+BIOS Version:              Microsoft 1.16.3-2.el9_5.1, 4/1/2014
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-gb;English (United Kingdom)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague
+Total Physical Memory:     4,095 MB
+Available Physical Memory: 2,137 MB
+Virtual Memory: Max Size:  5,503 MB
+Virtual Memory: Available: 3,650 MB
+Virtual Memory: In Use:    1,853 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\GINEVRAUMBI
+Hotfix(s):                 5 Hotfix(s) Installed.
+                           [01]: KB4576478
+                           [02]: KB4562830
+                           [03]: KB4570334
+                           [04]: KB4577266
+                           [05]: KB4571756
+Network Card(s):           1 NIC(s) Installed.
+                           [01]: Intel(R) PRO/1000 MT Network Connection
+                                 Connection Name: Ethernet 3
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 192.168.14.20
+                                 [02]: fe80::dd35:ef21:9e4f:f75c
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           Virtualization Enabled In Firmware: Yes
+                           Second Level Address Translation: Yes
+                           Data Execution Prevention Available: Yes
+---
+$ ipconfig/all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : Ginevraumbi
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Ethernet 3:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Intel(R) PRO/1000 MT Network Connection
+   Physical Address. . . . . . . . . : 00-1B-21-13-14-20
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::dd35:ef21:9e4f:f75c%14(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.14.20(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.252.0
+   Default Gateway . . . . . . . . . : 192.168.12.1
+   DHCPv6 IAID . . . . . . . . . . . : 369105697
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-27-A6-18-4E-54-BE-F7-09-6F-C8
+   DNS Servers . . . . . . . . . . . : 8.8.8.8
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+---
+$ dir
+ Volume in drive C has no label.
+ Volume Serial Number is F43D-6628
+
+ Directory of C:\Users\Administrator\Desktop
+
+07/29/2026  03:00 PM    <DIR>          .
+07/29/2026  03:00 PM    <DIR>          ..
+07/29/2026  04:01 PM            25,600 1d6nTvU.doc
+07/29/2026  04:01 PM            64,512 3yQje1q.xls
+07/29/2026  04:01 PM            57,218 Bw0EubY.pdf
+07/29/2026  03:00 PM         6,606,848 CxAudioSvc.exe
+07/29/2026  04:01 PM           101,888 EgFo3ka.ppt
+07/29/2026  04:01 PM            33,403 Eh3agqS.png
+07/29/2026  04:01 PM           399,926 FCz6RfW.jpg
+07/29/2026  04:01 PM            25,600 fWVJ6tN.doc
+03/18/2026  02:28 PM             2,366 Google Chrome.lnk
+07/29/2026  04:01 PM             8,387 jCOvQhr.xlsx
+07/29/2026  03:00 PM            41,525 jUi1lB0.mp3
+07/29/2026  04:01 PM             8,387 KTaLzib.xlsx
+07/29/2026  03:00 PM            41,525 ktSs8zW.mp3
+07/29/2026  04:01 PM            30,391 kYGlUT6.pptx
+07/29/2026  04:01 PM           101,888 nDpxLkx.ppt
+07/29/2026  04:01 PM            12,627 qOBrrg1.docx
+07/29/2026  04:01 PM            57,218 tMD6I3B.pdf
+07/29/2026  04:01 PM           399,926 uVELGfe.jpg
+07/29/2026  04:01 PM            64,512 VlmTfeR.xls
+07/29/2026  04:01 PM            30,391 vRBje7N.pptx
+07/29/2026  04:01 PM            12,627 XZZ1Zb2.docx
+07/29/2026  04:01 PM            33,403 Z6Mke0Q.png
+              22 File(s)      8,160,168 bytes
+               2 Dir(s)  17,236,754,432 bytes free
+---
+$ arp -a
+
+Interface: 192.168.14.20 --- 0xe
+  Internet Address      Physical Address      Type
+  192.168.12.1          00-1b-17-00-18-41     dynamic   
+  192.168.15.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+---
+$ curl ipinfo.io
+{
+  "ip": "109.74.154.90",
+  "city": "Bratislava",
+  "region": "Bratislava Region",
+  "country": "SK",
+  "loc": "48.1482,17.1067",
+  "org": "AS29405 VNET a.s.",
+  "postal": "840 02",
+  "timezone": "Europe/Bratislava",
+  "readme": "https://ipinfo.io/missingauth"
+}
+---
