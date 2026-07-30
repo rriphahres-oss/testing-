@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Thu, 30 Jul 2026 09:51:39 +0430
+Time: Thu, 30 Jul 2026 09:52:26 +0430
 
 $ whoami
 lpt-kst-001\omaid computer
@@ -30,10 +30,10 @@ System Locale:             en-us;English (United States)
 Input Locale:              en-us;English (United States)
 Time Zone:                 (UTC+04:30) Kabul
 Total Physical Memory:     16,265 MB
-Available Physical Memory: 6,706 MB
+Available Physical Memory: 6,793 MB
 Virtual Memory: Max Size:  29,065 MB
-Virtual Memory: Available: 16,843 MB
-Virtual Memory: In Use:    12,222 MB
+Virtual Memory: Available: 17,086 MB
+Virtual Memory: In Use:    11,979 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    kbl.afghantelecom.af
 Logon Server:              \\LPT-KST-001
@@ -181,7 +181,7 @@ Ethernet adapter VMware Network Adapter VMnet1:
    IPv4 Address. . . . . . . . . . . : 192.168.217.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Thursday, July 30, 2026 8:33:25 AM
-   Lease Expires . . . . . . . . . . : Thursday, July 30, 2026 10:18:25 AM
+   Lease Expires . . . . . . . . . . : Thursday, July 30, 2026 10:18:26 AM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.217.254
    DHCPv6 IAID . . . . . . . . . . . : 838881366
@@ -202,7 +202,7 @@ Ethernet adapter VMware Network Adapter VMnet8:
    IPv4 Address. . . . . . . . . . . : 192.168.229.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Thursday, July 30, 2026 8:33:26 AM
-   Lease Expires . . . . . . . . . . : Thursday, July 30, 2026 10:18:25 AM
+   Lease Expires . . . . . . . . . . : Thursday, July 30, 2026 10:18:26 AM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.229.254
    DHCPv6 IAID . . . . . . . . . . . : 855658582
@@ -4882,7 +4882,7 @@ $ dir
 05/29/2025  12:50 PM           309,248 zipfldr.dll
 12/07/2019  01:38 PM            30,720 ztrace_maps.dll
             4524 File(s)  2,173,139,094 bytes
-             129 Dir(s)  33,600,720,896 bytes free
+             129 Dir(s)  33,590,226,944 bytes free
 ---
 $ arp -a
 
