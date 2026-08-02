@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Sun, 02 Aug 2026 15:56:47 +0430
+Time: Sun, 02 Aug 2026 15:57:33 +0430
 
 $ whoami
 lpt-kst-001\omaid computer
@@ -30,7 +30,7 @@ System Locale:             en-us;English (United States)
 Input Locale:              en-us;English (United States)
 Time Zone:                 (UTC+04:30) Kabul
 Total Physical Memory:     16,265 MB
-Available Physical Memory: 6,428 MB
+Available Physical Memory: 6,416 MB
 Virtual Memory: Max Size:  29,065 MB
 Virtual Memory: Available: 15,476 MB
 Virtual Memory: In Use:    13,589 MB
@@ -140,7 +140,7 @@ Ethernet adapter Ethernet:
    IPv4 Address. . . . . . . . . . . : 172.16.102.64(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Sunday, August 2, 2026 7:46:49 AM
-   Lease Expires . . . . . . . . . . : Monday, August 3, 2026 7:46:48 AM
+   Lease Expires . . . . . . . . . . : Monday, August 3, 2026 7:46:49 AM
    Default Gateway . . . . . . . . . : 172.16.102.1
    DHCP Server . . . . . . . . . . . : 172.16.102.1
    DHCPv6 IAID . . . . . . . . . . . : 161762504
@@ -3750,7 +3750,7 @@ $ dir
 12/07/2019  02:23 PM            40,960 SrpUxNativeSnapIn.dll
 08/17/2024  09:03 AM           252,416 srrstr.dll
 08/17/2024  09:03 AM            59,392 SrTasks.exe
-08/02/2026  03:03 PM    <DIR>          sru
+08/02/2026  03:57 PM    <DIR>          sru
 08/17/2024  09:02 AM            65,024 srumapi.dll
 08/17/2024  09:02 AM           243,200 srumsvc.dll
 08/17/2024  08:58 AM           118,984 srvcli.dll
@@ -4897,7 +4897,7 @@ $ dir
 05/29/2025  12:50 PM           309,248 zipfldr.dll
 12/07/2019  01:38 PM            30,720 ztrace_maps.dll
             4524 File(s)  2,173,139,094 bytes
-             129 Dir(s)  32,520,781,824 bytes free
+             129 Dir(s)  32,519,544,832 bytes free
 ---
 $ arp -a
 
@@ -4945,7 +4945,7 @@ Interface: 192.168.137.1 --- 0x14
 ---
 $ curl ipinfo.io
 {
-  "ip": "149.54.30.134",
+  "ip": "180.94.92.162",
   "city": "Kabul",
   "region": "Kabul",
   "country": "AF",
