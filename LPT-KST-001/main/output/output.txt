@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Tue, 04 Aug 2026 07:59:11 +0430
+Time: Tue, 04 Aug 2026 07:59:59 +0430
 
 $ whoami
 lpt-kst-001\omaid computer
@@ -30,10 +30,10 @@ System Locale:             en-us;English (United States)
 Input Locale:              en-us;English (United States)
 Time Zone:                 (UTC+04:30) Kabul
 Total Physical Memory:     16,265 MB
-Available Physical Memory: 4,675 MB
+Available Physical Memory: 4,724 MB
 Virtual Memory: Max Size:  29,065 MB
-Virtual Memory: Available: 13,854 MB
-Virtual Memory: In Use:    15,211 MB
+Virtual Memory: Available: 14,206 MB
+Virtual Memory: In Use:    14,859 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    kbl.afghantelecom.af
 Logon Server:              \\LPT-KST-001
@@ -1303,7 +1303,7 @@ $ dir
 08/17/2024  09:05 AM            47,616 DragDropExperienceCommon.dll
 08/17/2024  09:02 AM            47,616 DragDropExperienceDataExchangeDelegated.dll
 12/07/2019  01:39 PM            87,552 driverquery.exe
-06/03/2026  03:41 PM    <DIR>          drivers
+08/04/2026  07:58 AM    <DIR>          drivers
 12/07/2019  01:44 PM    <DIR>          DriverState
 06/07/2026  08:33 AM    <DIR>          DriverStore
 08/17/2024  09:03 AM            26,624 drprov.dll
@@ -4897,7 +4897,7 @@ $ dir
 05/29/2025  12:50 PM           309,248 zipfldr.dll
 12/07/2019  01:38 PM            30,720 ztrace_maps.dll
             4524 File(s)  2,173,139,094 bytes
-             129 Dir(s)  32,148,983,808 bytes free
+             129 Dir(s)  32,146,866,176 bytes free
 ---
 $ arp -a
 
