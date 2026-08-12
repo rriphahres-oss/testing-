@@ -1,5 +1,5 @@
 === System Information ===
-Time: Wed, 12 Aug 2026 09:20:35 +0430
+Time: Wed, 12 Aug 2026 09:21:22 +0430
 Hostname: LPT-KST-001
 OS: windows
 Arch: amd64
@@ -57,6 +57,11 @@ Ethernet adapter VMware Network Adapter VMnet8:
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Default Gateway . . . . . . . . . : 
 
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
 Wireless LAN adapter Local Area Connection* 11:
 
    Connection-specific DNS Suffix  . : 
@@ -64,11 +69,6 @@ Wireless LAN adapter Local Area Connection* 11:
    IPv4 Address. . . . . . . . . . . : 192.168.137.1
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Default Gateway . . . . . . . . . : 
-
-Ethernet adapter Bluetooth Network Connection:
-
-   Media State . . . . . . . . . . . : Media disconnected
-   Connection-specific DNS Suffix  . : 
 
 --- systeminfo (OS Name) ---
 [ERROR] exit status 1 - stderr: FINDSTR: Cannot open Name:"
