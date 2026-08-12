@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Wed, 12 Aug 2026 08:06:07 +0430
+Time: Wed, 12 Aug 2026 08:06:53 +0430
 
 $ whoami
 lpt-kst-001\omaid computer
@@ -30,10 +30,10 @@ System Locale:             en-us;English (United States)
 Input Locale:              en-us;English (United States)
 Time Zone:                 (UTC+04:30) Kabul
 Total Physical Memory:     16,265 MB
-Available Physical Memory: 6,387 MB
+Available Physical Memory: 6,365 MB
 Virtual Memory: Max Size:  29,065 MB
-Virtual Memory: Available: 18,130 MB
-Virtual Memory: In Use:    10,935 MB
+Virtual Memory: Available: 18,099 MB
+Virtual Memory: In Use:    10,966 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    kbl.afghantelecom.af
 Logon Server:              \\LPT-KST-001
@@ -140,7 +140,7 @@ Ethernet adapter Ethernet:
    IPv4 Address. . . . . . . . . . . : 172.16.102.64(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Wednesday, August 12, 2026 8:01:41 AM
-   Lease Expires . . . . . . . . . . : Thursday, August 13, 2026 7:46:21 AM
+   Lease Expires . . . . . . . . . . : Thursday, August 13, 2026 7:46:20 AM
    Default Gateway . . . . . . . . . : 172.16.102.1
    DHCP Server . . . . . . . . . . . : 172.16.102.1
    DHCPv6 IAID . . . . . . . . . . . : 161762504
@@ -243,8 +243,8 @@ $ dir
 
  Directory of C:\Windows\system32
 
-08/12/2026  07:53 AM    <DIR>          .
-08/12/2026  07:53 AM    <DIR>          ..
+08/12/2026  08:06 AM    <DIR>          .
+08/12/2026  08:06 AM    <DIR>          ..
 12/07/2019  02:20 PM    <DIR>          0409
 07/21/2026  12:09 PM           321,226 20260721120445_BloodHound.zip
 12/07/2019  01:38 PM            12,088 69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll
@@ -3021,18 +3021,18 @@ $ dir
 12/07/2019  01:39 PM            15,872 PerceptionSimulation.ProxyStubs.dll
 05/01/2025  08:36 AM           553,984 PerceptionSimulationExtensions.dll
 05/01/2025  08:36 AM           806,400 PerceptionSimulationManager.dll
-08/12/2026  07:53 AM           134,832 perfc009.dat
+08/12/2026  08:06 AM           134,832 perfc009.dat
 08/17/2024  08:58 AM            47,616 perfctrs.dll
 12/07/2019  01:42 PM            33,424 perfd009.dat
 08/17/2024  08:58 AM            43,008 perfdisk.dll
-08/12/2026  07:53 AM           714,650 perfh009.dat
+08/12/2026  08:06 AM           714,650 perfh009.dat
 12/07/2019  01:42 PM           297,062 perfi009.dat
 12/07/2019  01:39 PM           181,760 perfmon.exe
 12/07/2019  01:39 PM           145,519 perfmon.msc
 08/17/2024  08:58 AM            27,136 perfnet.dll
 08/17/2024  08:58 AM            42,496 perfos.dll
 08/17/2024  08:58 AM            46,080 perfproc.dll
-08/12/2026  07:53 AM           844,834 PerfStringBackup.INI
+08/12/2026  08:06 AM           844,834 PerfStringBackup.INI
 12/07/2019  01:39 PM            83,456 perftrack.dll
 05/01/2025  08:36 AM            83,456 perfts.dll
 05/01/2025  08:35 AM           148,992 PersonalizationCSP.dll
@@ -4897,7 +4897,7 @@ $ dir
 05/29/2025  12:50 PM           309,248 zipfldr.dll
 12/07/2019  01:38 PM            30,720 ztrace_maps.dll
             4524 File(s)  2,173,142,331 bytes
-             129 Dir(s)  26,759,626,752 bytes free
+             129 Dir(s)  26,757,230,592 bytes free
 ---
 $ arp -a
 
