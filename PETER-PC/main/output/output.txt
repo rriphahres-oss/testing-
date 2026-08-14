@@ -1,0 +1,259 @@
+=== Command Execution Output ===
+Time: Fri, 14 Aug 2026 01:37:20 PDT
+
+$ whoami
+peter-pc\peter
+---
+$ systeminfo
+
+Host Name:                 PETER-PC
+OS Name:                   Microsoft Windows 10 Enterprise LTSC
+OS Version:                10.0.17763 N/A Build 17763
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          Peter
+Registered Organization:   
+Product ID:                25074-975-8551639-95109
+Original Install Date:     9/13/2019, 3:14:25 AM
+System Boot Time:          8/14/2026, 1:26:31 AM
+System Manufacturer:       Dell Inc.
+System Model:              XPS 15 9570
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: AMD64 Family 23 Model 49 Stepping 0 AuthenticAMD ~4192 Mhz
+BIOS Version:              American Megatrends Inc. ?-20240604_154936-d4a433a08f27, 12/15/2022
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume2
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC-08:00) Pacific Time (US & Canada)
+Total Physical Memory:     4,095 MB
+Available Physical Memory: 2,706 MB
+Virtual Memory: Max Size:  5,503 MB
+Virtual Memory: Available: 4,170 MB
+Virtual Memory: In Use:    1,333 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\PETER-PC
+Hotfix(s):                 10 Hotfix(s) Installed.
+                           [01]: KB4534119
+                           [02]: KB4465065
+                           [03]: KB4470788
+                           [04]: KB4486153
+                           [05]: KB4487038
+                           [06]: KB4512577
+                           [07]: KB4516115
+                           [08]: KB4537759
+                           [09]: KB4539571
+                           [10]: KB4538461
+Network Card(s):           1 NIC(s) Installed.
+                           [01]: Intel(R) 82574L Gigabit Network Connection
+                                 Connection Name: Ethernet
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     172.20.0.1
+                                 IP address(es)
+                                 [01]: 172.20.0.2
+                                 [02]: fe80::9873:d061:e60:c91d
+Hyper-V Requirements:      VM Monitor Mode Extensions: No
+                           Virtualization Enabled In Firmware: Yes
+                           Second Level Address Translation: No
+                           Data Execution Prevention Available: Yes
+---
+$ ipconfig/all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : PETER-PC
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : local
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : local
+   Description . . . . . . . . . . . : Intel(R) 82574L Gigabit Network Connection
+   Physical Address. . . . . . . . . : 18-66-DA-12-34-56
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::9873:d061:e60:c91d%3(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 172.20.0.2(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Monday, March 2, 2026 4:43:25 PM
+   Lease Expires . . . . . . . . . . : Saturday, August 15, 2026 1:26:42 AM
+   Default Gateway . . . . . . . . . : 172.20.0.1
+   DHCP Server . . . . . . . . . . . : 172.20.0.1
+   DHCPv6 IAID . . . . . . . . . . . : 51930842
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-25-0D-86-41-18-66-DA-12-34-56
+   DNS Servers . . . . . . . . . . . : 8.8.8.8
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+---
+$ dir
+ Volume in drive C is OS
+ Volume Serial Number is DE76-068C
+
+ Directory of C:\Users\Peter\AppData\Local\Temp
+
+08/14/2026  01:37 AM    <DIR>          .
+08/14/2026  01:37 AM    <DIR>          ..
+03/02/2026  04:53 PM         6,603,264 74d347785dc47f8cda3876826cdd3fb3935ac55dc8e9e0c0f96d5ef4e00089a2.exe
+08/14/2026  01:36 AM           170,328 AarVgzmari.cab
+07/17/2025  01:58 PM           602,168 Anna.bmp
+08/14/2026  01:36 AM           482,963 awIABChYgAh.log
+08/14/2026  01:36 AM           389,408 bEmONPcTAJIv.tmp
+08/14/2026  01:36 AM           329,870 BvFbpeIilpHuLSy.html
+08/14/2026  01:36 AM           171,818 bygUogevrpNc.tmp
+08/14/2026  01:36 AM           490,080 cbWqIguMsd.html
+02/12/2026  04:13 PM    <DIR>          chocolatey
+08/14/2026  01:36 AM           188,097 CIbkSJRSHYLBMl.cab
+08/14/2026  01:36 AM           840,596 clOZjsJSjnO.html
+07/17/2025  02:14 PM                 0 CVRC734.tmp.cvr
+07/17/2025  02:14 PM                 0 CVRFF6B.tmp.cvr
+08/14/2026  01:36 AM           316,896 CwTgBxksvgE.html
+08/14/2026  01:36 AM           237,326 cXqBOQKovhO.cab
+08/14/2026  01:36 AM           880,940 CyFUCnFsAB.dat
+08/14/2026  01:36 AM           468,797 czllGFUiix.dat
+10/31/2025  01:00 PM               701 dd_MofCompiler_20251031130039.log
+10/31/2025  01:01 PM             2,476 dd_vcredist_wrapper_x64_20251031130110.log
+10/31/2025  01:01 PM             2,475 dd_vcredist_wrapper_x86_20251031130044.log
+10/28/2025  09:43 AM                 0 DO2616.tmp
+08/14/2026  01:37 AM                 0 DOA761.tmp
+08/14/2026  01:36 AM           644,907 EbcblsgyjPTUfWYn.tmp
+08/14/2026  01:36 AM           808,103 eEKHigGLdaNLk.cab
+08/14/2026  01:36 AM           208,739 EFaPBUYtpX.dat
+08/14/2026  01:36 AM           779,318 eFxBFQiettG.tmp
+08/14/2026  01:36 AM           774,986 EGSzFWCnEP.html
+08/14/2026  01:36 AM           503,661 eGubuknMcKirNWoVQ.cab
+08/14/2026  01:36 AM           421,968 eqoOnZYgSK.dat
+08/14/2026  01:36 AM           326,007 eRMFZJAzZHoUf.dat
+08/14/2026  01:36 AM           760,870 fmXRRDrApr.cab
+08/14/2026  01:36 AM           627,838 FWqaixPkQdyAxt.cab
+08/14/2026  01:36 AM           519,060 FxleijfVuEkF.html
+08/14/2026  01:36 AM           355,834 GBoPwADfLEi.cab
+08/14/2026  01:36 AM           491,473 gcFXgNfaXDRQ.log
+08/14/2026  01:36 AM           769,324 ggeOqrtyBtZILX.tmp
+08/14/2026  01:36 AM           561,727 grElOXUavjjdfZ.html
+08/14/2026  01:36 AM           275,364 GxINNkXXSN.tmp
+08/14/2026  01:36 AM           697,665 HinUpJlWXmLFf.html
+08/14/2026  01:36 AM            15,807 HoeyGvkkuNOZ.tmp
+07/24/2025  04:10 PM    <DIR>          hsperfdata_Peter
+08/14/2026  01:36 AM           863,216 hULVkvXFZWJKx.log
+08/14/2026  01:36 AM           148,431 hwIjKIZAquZemX.tmp
+08/14/2026  01:36 AM           287,922 iMcGJYlNdhTPdZsiIo.cab
+08/14/2026  01:36 AM           759,785 IohtAIGhybygH.dat
+08/14/2026  01:36 AM           818,493 iOxAvDilAyP.dat
+08/14/2026  01:36 AM           519,129 IzhvmwNPSQG.cab
+08/14/2026  01:36 AM           122,818 jAKOuEmydG.cab
+02/12/2026  03:40 PM            62,620 JavaDeployReg.log
+07/24/2025  04:10 PM                13 jawshtml.html
+08/14/2026  01:36 AM           469,173 jCzBgtAQoEhW.cab
+08/14/2026  01:36 AM           827,587 jgGDUdjohkxlcq.html
+02/12/2026  03:40 PM           288,505 jusched.log
+08/14/2026  01:36 AM           892,406 jwvZpuRWKfHm.dat
+08/14/2026  01:36 AM           936,910 kcYPrfzZQSG.log
+08/14/2026  01:36 AM           425,120 kFqGYxNHjEu.tmp
+08/14/2026  01:36 AM           871,455 KpjGMYAIUwv.log
+08/14/2026  01:36 AM           168,500 kuHJWzOagr.tmp
+08/14/2026  01:36 AM           197,764 lcQCqfFUFOm.log
+08/14/2026  01:36 AM            54,892 LEFpJETisFlRf.log
+08/14/2026  01:36 AM           857,951 liWQfldixxToZw.html
+08/14/2026  01:36 AM           535,369 LjHcXIFmCQ.html
+07/17/2025  01:56 PM    <DIR>          Low
+08/14/2026  01:36 AM           801,788 LqpOnNdCWQ.dat
+08/14/2026  01:36 AM            28,328 lTFeCfmvHhg.log
+08/14/2026  01:36 AM           933,656 LUfoDXGeQmIak.log
+08/14/2026  01:36 AM            11,528 lWsQidQJxQDqdlQ.tmp
+08/14/2026  01:36 AM           384,138 MjMrKmZNNLBpRneuj.html
+08/14/2026  01:36 AM           662,057 mjYBsYmyMyOh.cab
+08/14/2026  01:36 AM           476,801 MMnagTKkzMS.dat
+08/14/2026  01:36 AM           908,216 NaqwkmUTgxUIUOtZw.html
+08/14/2026  01:36 AM           836,258 ncxcVSUUjfeR.tmp
+08/14/2026  01:36 AM           307,064 NhGEZLWbQI.tmp
+08/14/2026  01:36 AM           588,894 NhqNnUhHxnboQK.tmp
+08/14/2026  01:36 AM           413,836 NrZaCcovgBzAn.cab
+08/14/2026  01:36 AM           580,016 nwTGYFYDnd.tmp
+08/14/2026  01:36 AM           557,601 OEBTXIJqecsrLWurhX.html
+08/14/2026  01:36 AM           758,519 OFqsBNvbVXJ.dat
+08/14/2026  01:36 AM             9,852 oqiRigGvfAl.dat
+08/14/2026  01:36 AM           349,681 ORXElJljnsLHKbO.cab
+08/14/2026  01:36 AM           129,126 pcmyQwqjcly.log
+07/17/2025  02:09 PM           602,168 Peter.bmp
+08/14/2026  01:36 AM           709,671 pktSLxmMXr.html
+08/14/2026  01:36 AM           594,011 pwusdXZpDYuF.html
+08/14/2026  01:36 AM           382,037 PYclFBtxNMHjutztwD.log
+08/14/2026  01:36 AM           996,660 QAGffshfjVIK.html
+08/14/2026  01:36 AM           366,782 QdsuSevfdPw.cab
+08/14/2026  01:36 AM           875,385 QgfgEShieX.tmp
+08/14/2026  01:36 AM           334,031 QwztjfIMLYB.tmp
+08/14/2026  01:36 AM           227,429 RDhzjabkcTNQ.log
+08/14/2026  01:36 AM           175,363 reGjaWaaKk.html
+08/14/2026  01:36 AM           230,119 rlgblyHcqaGWggqAiZk.log
+08/14/2026  01:36 AM           483,987 rxDbhzlIbjYdP.log
+08/14/2026  01:36 AM           309,299 sAhcddsqKjAI.cab
+08/14/2026  01:36 AM           894,357 sEAxBBdtYR.log
+08/14/2026  01:36 AM           676,921 smSOcmcJjjBYCuR.log
+08/14/2026  01:36 AM           520,660 sQjseGOEiWagRiOtH.tmp
+08/14/2026  01:36 AM           400,155 sRjphrxEnEio.dat
+08/14/2026  01:36 AM           838,281 sYFQsmXfJwkTWZX.log
+08/14/2026  01:36 AM           473,659 tdnuvjBMLGW.html
+08/14/2026  01:36 AM           642,858 tFlUwfLLylfFAoQBc.tmp
+08/14/2026  01:36 AM           340,988 tlsakdvjbOTws.dat
+08/14/2026  01:36 AM           596,339 tsbffEJpsy.log
+08/14/2026  01:36 AM           439,715 TuUHqjvqPHVWCD.dat
+08/14/2026  01:36 AM           931,680 txADJEyvlGTK.dat
+08/14/2026  01:36 AM           916,216 tZQyWSJUDDXCWiu.tmp
+08/14/2026  01:36 AM           143,342 uGzFWLZVuV.tmp
+08/14/2026  01:36 AM           808,657 uGZPqRTENb.log
+08/14/2026  01:36 AM           894,480 UOGjbKKppEkI.cab
+08/14/2026  01:36 AM           257,995 urXQOprOeFcQ.html
+08/14/2026  01:36 AM           764,574 uVgOBPFCjvfQ.tmp
+08/14/2026  01:36 AM           526,400 uyoxkvgXrsYMt.dat
+08/14/2026  01:36 AM           691,832 VffvPYZhSjGX.cab
+08/14/2026  01:36 AM            98,209 vgLIJmzEutSH.dat
+08/14/2026  01:36 AM           674,968 vNWeFhlrOYOZWbSr.dat
+08/14/2026  01:36 AM           124,285 VpMySWVLgqOdx.log
+08/14/2026  01:36 AM           345,403 VqEWZzHMjP.html
+08/14/2026  01:36 AM            85,374 wEQTuxxogz.tmp
+07/17/2025  01:56 PM               689 wmsetup.log
+08/14/2026  01:36 AM           669,978 WWBRJDgxBtetW.cab
+08/14/2026  01:36 AM           132,683 xicZasuBAuwc.log
+08/14/2026  01:36 AM           940,310 xOLyPESHbCrjA.html
+08/14/2026  01:36 AM           493,618 YFJBlWCRsvDDK.cab
+08/14/2026  01:36 AM           858,665 yKPfHcpGQZ.cab
+08/14/2026  01:36 AM           812,500 yNVSeeLiwZ.log
+08/14/2026  01:36 AM           906,302 ypaXzYCYWug.cab
+08/14/2026  01:36 AM           845,526 ZBwCKoITMaBKyhaoHQMe.dat
+08/14/2026  01:36 AM           509,774 ZNLyUPkRZux.log
+08/14/2026  01:36 AM            78,890 ZTJsXOnIyl.html
+08/14/2026  01:36 AM           482,508 ZXKygrKmUBo.cab
+             127 File(s)     66,672,005 bytes
+               5 Dir(s)  1,943,184,158,720 bytes free
+---
+$ arp -a
+
+Interface: 172.20.0.2 --- 0x3
+  Internet Address      Physical Address      Type
+  172.20.0.1            c6-10-76-9f-8e-1d     dynamic   
+  172.20.0.255          ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+---
+$ curl ipinfo.io
+{
+  "ip": "194.146.92.22",
+  "city": "Madrid",
+  "region": "Madrid",
+  "country": "ES",
+  "loc": "40.4165,-3.7026",
+  "org": "AS212238 Datacamp Limited",
+  "postal": "28004",
+  "timezone": "Europe/Madrid",
+  "readme": "https://ipinfo.io/missingauth"
+}
+---
