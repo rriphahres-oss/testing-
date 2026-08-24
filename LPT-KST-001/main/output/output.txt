@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Mon, 24 Aug 2026 13:53:08 +0430
+Time: Mon, 24 Aug 2026 13:53:57 +0430
 
 $ whoami
 lpt-kst-001\omaid computer
@@ -30,10 +30,10 @@ System Locale:             en-us;English (United States)
 Input Locale:              en-us;English (United States)
 Time Zone:                 (UTC+04:30) Kabul
 Total Physical Memory:     16,265 MB
-Available Physical Memory: 5,268 MB
+Available Physical Memory: 4,623 MB
 Virtual Memory: Max Size:  29,065 MB
-Virtual Memory: Available: 10,650 MB
-Virtual Memory: In Use:    18,415 MB
+Virtual Memory: Available: 10,609 MB
+Virtual Memory: In Use:    18,456 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    kbl.afghantelecom.af
 Logon Server:              \\LPT-KST-001
@@ -140,7 +140,7 @@ Ethernet adapter Ethernet:
    IPv4 Address. . . . . . . . . . . : 172.16.102.64(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Saturday, August 22, 2026 2:08:09 PM
-   Lease Expires . . . . . . . . . . : Tuesday, August 25, 2026 8:35:11 AM
+   Lease Expires . . . . . . . . . . : Tuesday, August 25, 2026 8:35:12 AM
    Default Gateway . . . . . . . . . : 172.16.102.1
    DHCP Server . . . . . . . . . . . : 172.16.102.1
    DHCPv6 IAID . . . . . . . . . . . : 161762504
@@ -196,7 +196,7 @@ Ethernet adapter VMware Network Adapter VMnet1:
    IPv4 Address. . . . . . . . . . . : 192.168.217.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Monday, August 24, 2026 1:52:22 PM
-   Lease Expires . . . . . . . . . . : Monday, August 24, 2026 2:22:21 PM
+   Lease Expires . . . . . . . . . . : Monday, August 24, 2026 2:22:22 PM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.217.254
    DHCPv6 IAID . . . . . . . . . . . : 838881366
@@ -217,7 +217,7 @@ Ethernet adapter VMware Network Adapter VMnet8:
    IPv4 Address. . . . . . . . . . . : 192.168.229.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Monday, August 24, 2026 1:52:25 PM
-   Lease Expires . . . . . . . . . . : Monday, August 24, 2026 2:22:21 PM
+   Lease Expires . . . . . . . . . . : Monday, August 24, 2026 2:22:22 PM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.229.254
    DHCPv6 IAID . . . . . . . . . . . : 855658582
@@ -4897,7 +4897,7 @@ $ dir
 05/29/2025  12:50 PM           309,248 zipfldr.dll
 12/07/2019  01:38 PM            30,720 ztrace_maps.dll
             4524 File(s)  2,173,443,963 bytes
-             129 Dir(s)  33,272,995,840 bytes free
+             129 Dir(s)  33,283,743,744 bytes free
 ---
 $ arp -a
 
@@ -4923,6 +4923,7 @@ Interface: 172.16.102.64 --- 0xb
   Internet Address      Physical Address      Type
   172.16.102.1          7c-5a-1c-cf-c1-a7     dynamic   
   172.16.102.70         20-47-47-b8-0a-a5     dynamic   
+  172.16.102.75         4c-d7-17-4d-ae-c3     dynamic   
   172.16.102.161        8c-ec-4b-59-42-78     dynamic   
   172.16.102.255        ff-ff-ff-ff-ff-ff     static    
   224.0.0.22            01-00-5e-00-00-16     static    
@@ -4943,7 +4944,7 @@ Interface: 192.168.137.1 --- 0x14
 ---
 $ curl ipinfo.io
 {
-  "ip": "180.94.90.54",
+  "ip": "180.94.92.162",
   "city": "Kabul",
   "region": "Kabul",
   "country": "AF",
