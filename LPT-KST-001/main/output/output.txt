@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Tue, 25 Aug 2026 07:51:27 +0430
+Time: Tue, 25 Aug 2026 07:52:15 +0430
 
 $ whoami
 lpt-kst-001\omaid computer
@@ -30,10 +30,10 @@ System Locale:             en-us;English (United States)
 Input Locale:              en-us;English (United States)
 Time Zone:                 (UTC+04:30) Kabul
 Total Physical Memory:     16,265 MB
-Available Physical Memory: 4,415 MB
+Available Physical Memory: 4,998 MB
 Virtual Memory: Max Size:  29,065 MB
-Virtual Memory: Available: 10,795 MB
-Virtual Memory: In Use:    18,270 MB
+Virtual Memory: Available: 10,935 MB
+Virtual Memory: In Use:    18,130 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    kbl.afghantelecom.af
 Logon Server:              \\LPT-KST-001
@@ -134,7 +134,7 @@ Ethernet adapter Ethernet:
    IPv4 Address. . . . . . . . . . . : 172.16.102.64(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Saturday, August 22, 2026 2:08:09 PM
-   Lease Expires . . . . . . . . . . : Tuesday, August 25, 2026 8:35:11 AM
+   Lease Expires . . . . . . . . . . : Tuesday, August 25, 2026 8:35:12 AM
    Default Gateway . . . . . . . . . : 172.16.102.1
    DHCP Server . . . . . . . . . . . : 255.255.255.255
    DHCPv6 IAID . . . . . . . . . . . : 161762504
@@ -181,7 +181,7 @@ Ethernet adapter VMware Network Adapter VMnet1:
    IPv4 Address. . . . . . . . . . . : 192.168.217.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Tuesday, August 25, 2026 7:42:40 AM
-   Lease Expires . . . . . . . . . . : Tuesday, August 25, 2026 8:12:39 AM
+   Lease Expires . . . . . . . . . . : Tuesday, August 25, 2026 8:12:40 AM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.217.254
    DHCPv6 IAID . . . . . . . . . . . : 838881366
@@ -202,7 +202,7 @@ Ethernet adapter VMware Network Adapter VMnet8:
    IPv4 Address. . . . . . . . . . . : 192.168.229.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Tuesday, August 25, 2026 7:42:40 AM
-   Lease Expires . . . . . . . . . . : Tuesday, August 25, 2026 8:12:39 AM
+   Lease Expires . . . . . . . . . . : Tuesday, August 25, 2026 8:12:40 AM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.229.254
    DHCPv6 IAID . . . . . . . . . . . : 855658582
@@ -4882,7 +4882,7 @@ $ dir
 05/29/2025  12:50 PM           309,248 zipfldr.dll
 12/07/2019  01:38 PM            30,720 ztrace_maps.dll
             4524 File(s)  2,173,443,963 bytes
-             129 Dir(s)  32,926,724,096 bytes free
+             129 Dir(s)  32,929,492,992 bytes free
 ---
 $ arp -a
 
