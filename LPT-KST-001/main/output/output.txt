@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Wed, 26 Aug 2026 07:33:50 +0430
+Time: Wed, 26 Aug 2026 07:34:37 +0430
 
 $ whoami
 lpt-kst-001\omaid computer
@@ -30,10 +30,10 @@ System Locale:             en-us;English (United States)
 Input Locale:              en-us;English (United States)
 Time Zone:                 (UTC+04:30) Kabul
 Total Physical Memory:     16,265 MB
-Available Physical Memory: 5,309 MB
+Available Physical Memory: 3,717 MB
 Virtual Memory: Max Size:  29,065 MB
-Virtual Memory: Available: 10,902 MB
-Virtual Memory: In Use:    18,163 MB
+Virtual Memory: Available: 11,454 MB
+Virtual Memory: In Use:    17,611 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    kbl.afghantelecom.af
 Logon Server:              \\LPT-KST-001
@@ -67,7 +67,7 @@ Hotfix(s):                 29 Hotfix(s) Installed.
                            [27]: KB5063979
                            [28]: KB5066411
                            [29]: KB5066790
-Network Card(s):           6 NIC(s) Installed.
+Network Card(s):           7 NIC(s) Installed.
                            [01]: Intel(R) Ethernet Connection (4) I219-LM
                                  Connection Name: Ethernet
                                  DHCP Enabled:    Yes
@@ -84,14 +84,20 @@ Network Card(s):           6 NIC(s) Installed.
                            [04]: UltraVpn TAP-Windows Adapter V9
                                  Connection Name: UltraVpn Network Adapter
                                  Status:          Media disconnected
-                           [05]: VMware Virtual Ethernet Adapter for VMnet1
+                           [05]: Microsoft Wi-Fi Direct Virtual Adapter
+                                 Connection Name: Local Area Connection* 11
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 192.168.137.1
+                                 [02]: fe80::6a24:43b:76ad:8451
+                           [06]: VMware Virtual Ethernet Adapter for VMnet1
                                  Connection Name: VMware Network Adapter VMnet1
                                  DHCP Enabled:    Yes
                                  DHCP Server:     192.168.217.254
                                  IP address(es)
                                  [01]: 192.168.217.1
                                  [02]: fe80::f41f:27c2:d091:13c
-                           [06]: VMware Virtual Ethernet Adapter for VMnet8
+                           [07]: VMware Virtual Ethernet Adapter for VMnet8
                                  Connection Name: VMware Network Adapter VMnet8
                                  DHCP Enabled:    Yes
                                  DHCP Server:     192.168.229.254
@@ -163,12 +169,21 @@ Wireless LAN adapter Local Area Connection* 1:
 
 Wireless LAN adapter Local Area Connection* 11:
 
-   Media State . . . . . . . . . . . : Media disconnected
    Connection-specific DNS Suffix  . : 
    Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #3
    Physical Address. . . . . . . . . : 8A-B1-11-E4-B6-9B
    DHCP Enabled. . . . . . . . . . . : No
    Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::6a24:43b:76ad:8451%20(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.137.1(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 
+   DHCPv6 IAID . . . . . . . . . . . : 327856401
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2E-40-CB-F9-A4-4C-C8-1A-F8-44
+   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
 
 Ethernet adapter VMware Network Adapter VMnet1:
 
@@ -202,7 +217,7 @@ Ethernet adapter VMware Network Adapter VMnet8:
    IPv4 Address. . . . . . . . . . . : 192.168.229.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Wednesday, August 26, 2026 7:32:19 AM
-   Lease Expires . . . . . . . . . . : Wednesday, August 26, 2026 8:02:17 AM
+   Lease Expires . . . . . . . . . . : Wednesday, August 26, 2026 8:02:16 AM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.229.254
    DHCPv6 IAID . . . . . . . . . . . : 855658582
@@ -3735,7 +3750,7 @@ $ dir
 12/07/2019  02:23 PM            40,960 SrpUxNativeSnapIn.dll
 08/17/2024  09:03 AM           252,416 srrstr.dll
 08/17/2024  09:03 AM            59,392 SrTasks.exe
-08/26/2026  07:33 AM    <DIR>          sru
+08/26/2026  07:34 AM    <DIR>          sru
 08/17/2024  09:02 AM            65,024 srumapi.dll
 08/17/2024  09:02 AM           243,200 srumsvc.dll
 08/17/2024  08:58 AM           118,984 srvcli.dll
@@ -4882,7 +4897,7 @@ $ dir
 05/29/2025  12:50 PM           309,248 zipfldr.dll
 12/07/2019  01:38 PM            30,720 ztrace_maps.dll
             4524 File(s)  2,173,443,963 bytes
-             129 Dir(s)  32,428,331,008 bytes free
+             129 Dir(s)  32,590,790,656 bytes free
 ---
 $ arp -a
 
@@ -4912,6 +4927,15 @@ Interface: 172.16.102.64 --- 0xb
   224.0.0.251           01-00-5e-00-00-fb     static    
   224.0.0.252           01-00-5e-00-00-fc     static    
   239.255.102.18        01-00-5e-7f-66-12     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 192.168.137.1 --- 0x14
+  Internet Address      Physical Address      Type
+  192.168.137.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
   239.255.255.250       01-00-5e-7f-ff-fa     static    
   255.255.255.255       ff-ff-ff-ff-ff-ff     static    
 ---
