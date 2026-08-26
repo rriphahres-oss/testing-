@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Wed, 26 Aug 2026 07:34:37 +0430
+Time: Wed, 26 Aug 2026 07:35:25 +0430
 
 $ whoami
 lpt-kst-001\omaid computer
@@ -30,10 +30,10 @@ System Locale:             en-us;English (United States)
 Input Locale:              en-us;English (United States)
 Time Zone:                 (UTC+04:30) Kabul
 Total Physical Memory:     16,265 MB
-Available Physical Memory: 3,717 MB
+Available Physical Memory: 4,692 MB
 Virtual Memory: Max Size:  29,065 MB
-Virtual Memory: Available: 11,454 MB
-Virtual Memory: In Use:    17,611 MB
+Virtual Memory: Available: 11,160 MB
+Virtual Memory: In Use:    17,905 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    kbl.afghantelecom.af
 Logon Server:              \\LPT-KST-001
@@ -3879,7 +3879,7 @@ $ dir
 12/07/2019  01:39 PM           101,376 taskkill.exe
 12/07/2019  01:39 PM           106,496 tasklist.exe
 08/28/2025  02:47 PM         1,356,296 Taskmgr.exe
-08/23/2026  02:15 PM    <DIR>          Tasks
+08/26/2026  07:34 AM    <DIR>          Tasks
 08/17/2024  08:59 AM           708,720 taskschd.dll
 12/07/2019  01:39 PM           145,059 taskschd.msc
 08/17/2024  08:59 AM            59,392 TaskSchdPS.dll
@@ -4897,7 +4897,7 @@ $ dir
 05/29/2025  12:50 PM           309,248 zipfldr.dll
 12/07/2019  01:38 PM            30,720 ztrace_maps.dll
             4524 File(s)  2,173,443,963 bytes
-             129 Dir(s)  32,590,790,656 bytes free
+             129 Dir(s)  33,799,065,600 bytes free
 ---
 $ arp -a
 
@@ -4941,8 +4941,7 @@ Interface: 192.168.137.1 --- 0x14
 ---
 $ curl ipinfo.io
 {
-  "ip": "180.94.90.10",
-  "hostname": "mail.afghansat.af",
+  "ip": "180.94.90.54",
   "city": "Kabul",
   "region": "Kabul",
   "country": "AF",
