@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Sat, 29 Aug 2026 14:06:21 +0430
+Time: Sat, 29 Aug 2026 14:07:07 +0430
 
 $ whoami
 lpt-kst-001\omaid computer
@@ -30,10 +30,10 @@ System Locale:             en-us;English (United States)
 Input Locale:              en-us;English (United States)
 Time Zone:                 (UTC+04:30) Kabul
 Total Physical Memory:     16,265 MB
-Available Physical Memory: 4,542 MB
+Available Physical Memory: 4,619 MB
 Virtual Memory: Max Size:  29,065 MB
-Virtual Memory: Available: 14,145 MB
-Virtual Memory: In Use:    14,920 MB
+Virtual Memory: Available: 14,208 MB
+Virtual Memory: In Use:    14,857 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    kbl.afghantelecom.af
 Logon Server:              \\LPT-KST-001
@@ -4897,7 +4897,7 @@ $ dir
 05/29/2025  12:50 PM           309,248 zipfldr.dll
 12/07/2019  01:38 PM            30,720 ztrace_maps.dll
             4524 File(s)  2,173,445,592 bytes
-             129 Dir(s)  34,391,670,784 bytes free
+             129 Dir(s)  34,393,288,704 bytes free
 ---
 $ arp -a
 
