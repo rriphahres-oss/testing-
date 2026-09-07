@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Mon, 07 Sep 2026 15:00:13 +0430
+Time: Mon, 07 Sep 2026 15:05:23 +0430
 
 $ whoami
 lpt-kst-001\omaid computer
@@ -30,10 +30,10 @@ System Locale:             en-us;English (United States)
 Input Locale:              en-us;English (United States)
 Time Zone:                 (UTC+04:30) Kabul
 Total Physical Memory:     16,265 MB
-Available Physical Memory: 478 MB
-Virtual Memory: Max Size:  31,670 MB
-Virtual Memory: Available: 3,221 MB
-Virtual Memory: In Use:    28,449 MB
+Available Physical Memory: 8,087 MB
+Virtual Memory: Max Size:  29,467 MB
+Virtual Memory: Available: 11,879 MB
+Virtual Memory: In Use:    17,588 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    kbl.afghantelecom.af
 Logon Server:              \\LPT-KST-001
@@ -139,7 +139,7 @@ Ethernet adapter Ethernet:
    Link-local IPv6 Address . . . . . : fe80::2e15:35c1:2d37:6af0%11(Preferred) 
    IPv4 Address. . . . . . . . . . . : 172.16.102.64(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Lease Obtained. . . . . . . . . . : Monday, September 7, 2026 2:52:33 PM
+   Lease Obtained. . . . . . . . . . : Monday, September 7, 2026 3:04:46 PM
    Lease Expires . . . . . . . . . . : Tuesday, September 8, 2026 2:50:35 PM
    Default Gateway . . . . . . . . . : 172.16.102.1
    DHCP Server . . . . . . . . . . . : 172.16.102.1
@@ -4897,7 +4897,7 @@ $ dir
 05/29/2025  12:50 PM           309,248 zipfldr.dll
 12/07/2019  01:38 PM            30,720 ztrace_maps.dll
             4524 File(s)  2,173,445,592 bytes
-             129 Dir(s)  29,370,740,736 bytes free
+             129 Dir(s)  31,933,710,336 bytes free
 ---
 $ arp -a
 
@@ -4905,6 +4905,7 @@ Interface: 192.168.229.1 --- 0x5
   Internet Address      Physical Address      Type
   192.168.229.254       00-50-56-e4-13-de     dynamic   
   192.168.229.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.2             01-00-5e-00-00-02     static    
   224.0.0.22            01-00-5e-00-00-16     static    
   224.0.0.251           01-00-5e-00-00-fb     static    
   224.0.0.252           01-00-5e-00-00-fc     static    
@@ -4915,6 +4916,7 @@ Interface: 192.168.217.1 --- 0x6
   Internet Address      Physical Address      Type
   192.168.217.254       00-50-56-eb-48-ab     dynamic   
   192.168.217.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.2             01-00-5e-00-00-02     static    
   224.0.0.22            01-00-5e-00-00-16     static    
   224.0.0.251           01-00-5e-00-00-fb     static    
   224.0.0.252           01-00-5e-00-00-fc     static    
@@ -4928,15 +4930,18 @@ Interface: 172.16.102.64 --- 0xb
   172.16.102.70         20-47-47-b8-0a-a5     dynamic   
   172.16.102.110        18-db-f2-13-22-97     dynamic   
   172.16.102.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.2             01-00-5e-00-00-02     static    
   224.0.0.22            01-00-5e-00-00-16     static    
   224.0.0.251           01-00-5e-00-00-fb     static    
   224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.102.18        01-00-5e-7f-66-12     static    
   239.255.255.250       01-00-5e-7f-ff-fa     static    
   255.255.255.255       ff-ff-ff-ff-ff-ff     static    
 
 Interface: 192.168.137.1 --- 0x14
   Internet Address      Physical Address      Type
   192.168.137.255       ff-ff-ff-ff-ff-ff     static    
+  224.0.0.2             01-00-5e-00-00-02     static    
   224.0.0.22            01-00-5e-00-00-16     static    
   224.0.0.251           01-00-5e-00-00-fb     static    
   224.0.0.252           01-00-5e-00-00-fc     static    
@@ -4945,7 +4950,8 @@ Interface: 192.168.137.1 --- 0x14
 ---
 $ curl ipinfo.io
 {
-  "ip": "180.94.92.162",
+  "ip": "180.94.90.10",
+  "hostname": "mail.afghansat.af",
   "city": "Kabul",
   "region": "Kabul",
   "country": "AF",
