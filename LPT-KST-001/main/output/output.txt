@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Wed, 09 Sep 2026 09:58:46 +0430
+Time: Wed, 09 Sep 2026 09:59:31 +0430
 
 $ whoami
 lpt-kst-001\omaid computer
@@ -30,10 +30,10 @@ System Locale:             en-us;English (United States)
 Input Locale:              en-us;English (United States)
 Time Zone:                 (UTC+04:30) Kabul
 Total Physical Memory:     16,265 MB
-Available Physical Memory: 6,879 MB
+Available Physical Memory: 6,871 MB
 Virtual Memory: Max Size:  29,466 MB
-Virtual Memory: Available: 12,489 MB
-Virtual Memory: In Use:    16,977 MB
+Virtual Memory: Available: 12,615 MB
+Virtual Memory: In Use:    16,851 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    kbl.afghantelecom.af
 Logon Server:              \\LPT-KST-001
@@ -77,11 +77,7 @@ Network Card(s):           6 NIC(s) Installed.
                                  [02]: fe80::2e15:35c1:2d37:6af0
                            [02]: Intel(R) Dual Band Wireless-AC 8265
                                  Connection Name: Wi-Fi
-                                 DHCP Enabled:    Yes
-                                 DHCP Server:     10.130.18.7
-                                 IP address(es)
-                                 [01]: 10.130.18.122
-                                 [02]: fe80::5e6f:5266:c643:6b3c
+                                 Status:          Media disconnected
                            [03]: Bluetooth Device (Personal Area Network)
                                  Connection Name: Bluetooth Network Connection
                                  Status:          Media disconnected
@@ -138,7 +134,7 @@ Ethernet adapter Ethernet:
    IPv4 Address. . . . . . . . . . . : 172.16.102.64(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Wednesday, September 9, 2026 9:54:53 AM
-   Lease Expires . . . . . . . . . . : Thursday, September 10, 2026 9:54:52 AM
+   Lease Expires . . . . . . . . . . : Thursday, September 10, 2026 9:54:53 AM
    Default Gateway . . . . . . . . . : 172.16.102.1
    DHCP Server . . . . . . . . . . . : 172.16.102.1
    DHCPv6 IAID . . . . . . . . . . . : 161762504
@@ -167,7 +163,7 @@ Ethernet adapter VMware Network Adapter VMnet1:
    IPv4 Address. . . . . . . . . . . : 192.168.217.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Wednesday, September 9, 2026 8:54:01 AM
-   Lease Expires . . . . . . . . . . : Wednesday, September 9, 2026 10:24:00 AM
+   Lease Expires . . . . . . . . . . : Wednesday, September 9, 2026 10:24:01 AM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.217.254
    DHCPv6 IAID . . . . . . . . . . . : 838881366
@@ -188,7 +184,7 @@ Ethernet adapter VMware Network Adapter VMnet8:
    IPv4 Address. . . . . . . . . . . : 192.168.229.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Wednesday, September 9, 2026 8:53:52 AM
-   Lease Expires . . . . . . . . . . : Wednesday, September 9, 2026 10:23:51 AM
+   Lease Expires . . . . . . . . . . : Wednesday, September 9, 2026 10:23:52 AM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.229.254
    DHCPv6 IAID . . . . . . . . . . . : 855658582
@@ -199,31 +195,21 @@ Ethernet adapter VMware Network Adapter VMnet8:
    Primary WINS Server . . . . . . . : 192.168.229.2
    NetBIOS over Tcpip. . . . . . . . : Enabled
 
-Wireless LAN adapter Wi-Fi:
-
-   Connection-specific DNS Suffix  . : 
-   Description . . . . . . . . . . . : Intel(R) Dual Band Wireless-AC 8265
-   Physical Address. . . . . . . . . : 22-28-7D-16-E9-B4
-   DHCP Enabled. . . . . . . . . . . : Yes
-   Autoconfiguration Enabled . . . . : Yes
-   Link-local IPv6 Address . . . . . : fe80::5e6f:5266:c643:6b3c%14(Preferred) 
-   IPv4 Address. . . . . . . . . . . : 10.130.18.122(Preferred) 
-   Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Lease Obtained. . . . . . . . . . : Wednesday, September 9, 2026 8:58:03 AM
-   Lease Expires . . . . . . . . . . : Wednesday, September 9, 2026 10:57:58 AM
-   Default Gateway . . . . . . . . . : 10.130.18.7
-   DHCP Server . . . . . . . . . . . : 10.130.18.7
-   DHCPv6 IAID . . . . . . . . . . . : 210284817
-   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2E-40-CB-F9-A4-4C-C8-1A-F8-44
-   DNS Servers . . . . . . . . . . . : 10.130.18.7
-   NetBIOS over Tcpip. . . . . . . . : Enabled
-
 Ethernet adapter Bluetooth Network Connection:
 
    Media State . . . . . . . . . . . : Media disconnected
    Connection-specific DNS Suffix  . : 
    Description . . . . . . . . . . . : Bluetooth Device (Personal Area Network)
    Physical Address. . . . . . . . . : 88-B1-11-E4-B6-9F
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Intel(R) Dual Band Wireless-AC 8265
+   Physical Address. . . . . . . . . : 88-B1-11-E4-B6-9B
    DHCP Enabled. . . . . . . . . . . : Yes
    Autoconfiguration Enabled . . . . : Yes
 ---
@@ -4887,7 +4873,7 @@ $ dir
 05/29/2025  12:50 PM           309,248 zipfldr.dll
 12/07/2019  01:38 PM            30,720 ztrace_maps.dll
             4524 File(s)  2,173,445,592 bytes
-             129 Dir(s)  33,115,787,264 bytes free
+             129 Dir(s)  33,114,198,016 bytes free
 ---
 $ arp -a
 
@@ -4918,20 +4904,9 @@ Interface: 172.16.102.64 --- 0xb
   169.254.0.209         20-47-47-b8-0a-a5     dynamic   
   172.16.102.1          7c-5a-1c-cf-c1-a7     dynamic   
   172.16.102.56         18-db-f2-31-df-48     dynamic   
+  172.16.102.59         84-7b-eb-47-15-ad     dynamic   
   172.16.102.70         20-47-47-b8-0a-a5     dynamic   
   172.16.102.255        ff-ff-ff-ff-ff-ff     static    
-  224.0.0.22            01-00-5e-00-00-16     static    
-  224.0.0.251           01-00-5e-00-00-fb     static    
-  224.0.0.252           01-00-5e-00-00-fc     static    
-  239.255.255.250       01-00-5e-7f-ff-fa     static    
-  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
-
-Interface: 10.130.18.122 --- 0xe
-  Internet Address      Physical Address      Type
-  10.130.18.7           6a-73-1e-4f-8e-d9     dynamic   
-  10.130.18.195         5c-e0-c5-e9-2c-ad     dynamic   
-  10.130.18.255         ff-ff-ff-ff-ff-ff     static    
-  224.0.0.2             01-00-5e-00-00-02     static    
   224.0.0.22            01-00-5e-00-00-16     static    
   224.0.0.251           01-00-5e-00-00-fb     static    
   224.0.0.252           01-00-5e-00-00-fc     static    
@@ -4940,7 +4915,7 @@ Interface: 10.130.18.122 --- 0xe
 ---
 $ curl ipinfo.io
 {
-  "ip": "149.54.30.134",
+  "ip": "180.94.92.162",
   "city": "Kabul",
   "region": "Kabul",
   "country": "AF",
