@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Wed, 09 Sep 2026 13:30:53 +0430
+Time: Wed, 09 Sep 2026 13:54:40 +0430
 
 $ whoami
 lpt-kst-001\omaid computer
@@ -30,10 +30,10 @@ System Locale:             en-us;English (United States)
 Input Locale:              en-us;English (United States)
 Time Zone:                 (UTC+04:30) Kabul
 Total Physical Memory:     16,265 MB
-Available Physical Memory: 6,346 MB
+Available Physical Memory: 5,895 MB
 Virtual Memory: Max Size:  29,466 MB
-Virtual Memory: Available: 12,832 MB
-Virtual Memory: In Use:    16,634 MB
+Virtual Memory: Available: 12,470 MB
+Virtual Memory: In Use:    16,996 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    kbl.afghantelecom.af
 Logon Server:              \\LPT-KST-001
@@ -133,8 +133,8 @@ Ethernet adapter Ethernet:
    Link-local IPv6 Address . . . . . : fe80::2e15:35c1:2d37:6af0%11(Preferred) 
    IPv4 Address. . . . . . . . . . . : 172.16.102.64(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Lease Obtained. . . . . . . . . . : Wednesday, September 9, 2026 12:30:20 PM
-   Lease Expires . . . . . . . . . . : Thursday, September 10, 2026 9:54:53 AM
+   Lease Obtained. . . . . . . . . . : Wednesday, September 9, 2026 1:54:25 PM
+   Lease Expires . . . . . . . . . . : Thursday, September 10, 2026 9:54:52 AM
    Default Gateway . . . . . . . . . : 172.16.102.1
    DHCP Server . . . . . . . . . . . : 172.16.102.1
    DHCPv6 IAID . . . . . . . . . . . : 161762504
@@ -162,8 +162,8 @@ Ethernet adapter VMware Network Adapter VMnet1:
    Link-local IPv6 Address . . . . . : fe80::f41f:27c2:d091:13c%6(Preferred) 
    IPv4 Address. . . . . . . . . . . : 192.168.217.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Lease Obtained. . . . . . . . . . : Wednesday, September 9, 2026 12:28:10 PM
-   Lease Expires . . . . . . . . . . : Wednesday, September 9, 2026 1:58:10 PM
+   Lease Obtained. . . . . . . . . . : Wednesday, September 9, 2026 1:53:34 PM
+   Lease Expires . . . . . . . . . . : Wednesday, September 9, 2026 2:23:34 PM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.217.254
    DHCPv6 IAID . . . . . . . . . . . : 838881366
@@ -183,8 +183,8 @@ Ethernet adapter VMware Network Adapter VMnet8:
    Link-local IPv6 Address . . . . . : fe80::f728:e636:a7d3:f133%5(Preferred) 
    IPv4 Address. . . . . . . . . . . : 192.168.229.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Lease Obtained. . . . . . . . . . : Wednesday, September 9, 2026 12:28:13 PM
-   Lease Expires . . . . . . . . . . : Wednesday, September 9, 2026 1:58:11 PM
+   Lease Obtained. . . . . . . . . . : Wednesday, September 9, 2026 1:53:34 PM
+   Lease Expires . . . . . . . . . . : Wednesday, September 9, 2026 2:23:34 PM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.229.254
    DHCPv6 IAID . . . . . . . . . . . : 855658582
@@ -3622,7 +3622,7 @@ $ dir
 08/20/2024  08:17 AM    <DIR>          sl-SI
 08/17/2024  08:58 AM           146,944 slc.dll
 08/17/2024  08:58 AM            22,528 slcext.dll
-09/09/2026  11:00 AM    <DIR>          SleepStudy
+09/09/2026  01:53 PM    <DIR>          SleepStudy
 12/07/2019  01:38 PM            20,352 SlideToShutDown.exe
 12/07/2019  02:20 PM    <DIR>          slmgr
 12/07/2019  01:38 PM           142,904 slmgr.vbs
@@ -4873,13 +4873,12 @@ $ dir
 05/29/2025  12:50 PM           309,248 zipfldr.dll
 12/07/2019  01:38 PM            30,720 ztrace_maps.dll
             4524 File(s)  2,173,445,592 bytes
-             129 Dir(s)  30,539,202,560 bytes free
+             129 Dir(s)  30,538,715,136 bytes free
 ---
 $ arp -a
 
 Interface: 192.168.229.1 --- 0x5
   Internet Address      Physical Address      Type
-  192.168.229.254       00-50-56-e4-13-de     dynamic   
   192.168.229.255       ff-ff-ff-ff-ff-ff     static    
   224.0.0.22            01-00-5e-00-00-16     static    
   224.0.0.251           01-00-5e-00-00-fb     static    
@@ -4889,7 +4888,6 @@ Interface: 192.168.229.1 --- 0x5
 
 Interface: 192.168.217.1 --- 0x6
   Internet Address      Physical Address      Type
-  192.168.217.254       00-50-56-eb-48-ab     dynamic   
   192.168.217.255       ff-ff-ff-ff-ff-ff     static    
   224.0.0.22            01-00-5e-00-00-16     static    
   224.0.0.251           01-00-5e-00-00-fb     static    
