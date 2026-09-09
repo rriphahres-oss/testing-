@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Wed, 09 Sep 2026 09:42:38 +0430
+Time: Wed, 09 Sep 2026 09:44:14 +0430
 
 $ whoami
 lpt-kst-001\omaid computer
@@ -30,10 +30,10 @@ System Locale:             en-us;English (United States)
 Input Locale:              en-us;English (United States)
 Time Zone:                 (UTC+04:30) Kabul
 Total Physical Memory:     16,265 MB
-Available Physical Memory: 6,443 MB
+Available Physical Memory: 6,767 MB
 Virtual Memory: Max Size:  29,466 MB
-Virtual Memory: Available: 12,744 MB
-Virtual Memory: In Use:    16,722 MB
+Virtual Memory: Available: 12,548 MB
+Virtual Memory: In Use:    16,918 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    kbl.afghantelecom.af
 Logon Server:              \\LPT-KST-001
@@ -70,10 +70,9 @@ Hotfix(s):                 29 Hotfix(s) Installed.
 Network Card(s):           6 NIC(s) Installed.
                            [01]: Intel(R) Ethernet Connection (4) I219-LM
                                  Connection Name: Ethernet
-                                 DHCP Enabled:    Yes
-                                 DHCP Server:     255.255.255.255
+                                 DHCP Enabled:    No
                                  IP address(es)
-                                 [01]: 169.254.61.104
+                                 [01]: 192.168.100.230
                                  [02]: fe80::2e15:35c1:2d37:6af0
                            [02]: Intel(R) Dual Band Wireless-AC 8265
                                  Connection Name: Wi-Fi
@@ -132,17 +131,16 @@ Ethernet adapter Ethernet:
    Connection-specific DNS Suffix  . : 
    Description . . . . . . . . . . . : Intel(R) Ethernet Connection (4) I219-LM
    Physical Address. . . . . . . . . : A4-4C-C8-1A-F8-44
-   DHCP Enabled. . . . . . . . . . . : Yes
+   DHCP Enabled. . . . . . . . . . . : No
    Autoconfiguration Enabled . . . . : Yes
    Link-local IPv6 Address . . . . . : fe80::2e15:35c1:2d37:6af0%11(Preferred) 
-   Autoconfiguration IPv4 Address. . : 169.254.61.104(Preferred) 
-   Subnet Mask . . . . . . . . . . . : 255.255.0.0
-   Default Gateway . . . . . . . . . : 
+   IPv4 Address. . . . . . . . . . . : 192.168.100.230(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.100.254
    DHCPv6 IAID . . . . . . . . . . . : 161762504
    DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2E-40-CB-F9-A4-4C-C8-1A-F8-44
-   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
-                                       fec0:0:0:ffff::2%1
-                                       fec0:0:0:ffff::3%1
+   DNS Servers . . . . . . . . . . . : 192.168.10.10
+                                       192.168.10.20
    NetBIOS over Tcpip. . . . . . . . : Enabled
 
 Wireless LAN adapter Local Area Connection* 1:
@@ -208,7 +206,7 @@ Wireless LAN adapter Wi-Fi:
    IPv4 Address. . . . . . . . . . . : 10.130.18.122(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Wednesday, September 9, 2026 8:58:03 AM
-   Lease Expires . . . . . . . . . . : Wednesday, September 9, 2026 10:28:00 AM
+   Lease Expires . . . . . . . . . . : Wednesday, September 9, 2026 10:27:59 AM
    Default Gateway . . . . . . . . . : 10.130.18.7
    DHCP Server . . . . . . . . . . . : 10.130.18.7
    DHCPv6 IAID . . . . . . . . . . . : 210284817
@@ -4885,7 +4883,7 @@ $ dir
 05/29/2025  12:50 PM           309,248 zipfldr.dll
 12/07/2019  01:38 PM            30,720 ztrace_maps.dll
             4524 File(s)  2,173,445,592 bytes
-             129 Dir(s)  33,117,704,192 bytes free
+             129 Dir(s)  33,119,600,640 bytes free
 ---
 $ arp -a
 
@@ -4911,9 +4909,11 @@ Interface: 192.168.217.1 --- 0x6
   239.255.255.250       01-00-5e-7f-ff-fa     static    
   255.255.255.255       ff-ff-ff-ff-ff-ff     static    
 
-Interface: 169.254.61.104 --- 0xb
+Interface: 192.168.100.230 --- 0xb
   Internet Address      Physical Address      Type
-  169.254.255.255       ff-ff-ff-ff-ff-ff     static    
+  169.254.0.209         20-47-47-b8-0a-a5     dynamic   
+  169.254.9.45          18-db-f2-13-22-97     dynamic   
+  192.168.100.255       ff-ff-ff-ff-ff-ff     static    
   224.0.0.22            01-00-5e-00-00-16     static    
   224.0.0.251           01-00-5e-00-00-fb     static    
   224.0.0.252           01-00-5e-00-00-fc     static    
