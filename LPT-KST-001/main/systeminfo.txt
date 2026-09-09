@@ -1,5 +1,5 @@
 === System Information ===
-Time: Wed, 09 Sep 2026 09:15:02 +0430
+Time: Wed, 09 Sep 2026 09:15:52 +0430
 Hostname: LPT-KST-001
 OS: windows
 Arch: amd64
@@ -18,15 +18,18 @@ lpt-kst-001\omaid computer
 Windows IP Configuration
 
 
-Ethernet adapter Ethernet:
-
-   Media State . . . . . . . . . . . : Media disconnected
-   Connection-specific DNS Suffix  . : 
-
 Unknown adapter UltraVpn Network Adapter:
 
    Media State . . . . . . . . . . . : Media disconnected
    Connection-specific DNS Suffix  . : 
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::2e15:35c1:2d37:6af0%11
+   Autoconfiguration IPv4 Address. . : 169.254.61.104
+   Subnet Mask . . . . . . . . . . . : 255.255.0.0
+   Default Gateway . . . . . . . . . : 
 
 Wireless LAN adapter Local Area Connection* 1:
 
