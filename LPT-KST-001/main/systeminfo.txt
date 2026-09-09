@@ -1,5 +1,5 @@
 === System Information ===
-Time: Wed, 09 Sep 2026 08:53:52 +0430
+Time: Wed, 09 Sep 2026 08:55:36 +0430
 Hostname: LPT-KST-001
 OS: windows
 Arch: amd64
@@ -18,11 +18,6 @@ lpt-kst-001\omaid computer
 Windows IP Configuration
 
 
-Ethernet adapter Ethernet:
-
-   Media State . . . . . . . . . . . : Media disconnected
-   Connection-specific DNS Suffix  . : 
-
 Unknown adapter UltraVpn Network Adapter:
 
    Media State . . . . . . . . . . . : Media disconnected
@@ -35,13 +30,26 @@ Wireless LAN adapter Local Area Connection* 1:
 
 Wireless LAN adapter Local Area Connection* 11:
 
-   Media State . . . . . . . . . . . : Media disconnected
    Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::6a24:43b:76ad:8451%20
+   IPv4 Address. . . . . . . . . . . : 192.168.137.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::2e15:35c1:2d37:6af0%11
+   IPv4 Address. . . . . . . . . . . : 192.168.0.102
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.0.1
 
 Ethernet adapter VMware Network Adapter VMnet1:
 
    Connection-specific DNS Suffix  . : 
    Link-local IPv6 Address . . . . . : fe80::f41f:27c2:d091:13c%6
+   IPv4 Address. . . . . . . . . . . : 192.168.217.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Default Gateway . . . . . . . . . : 
 
 Ethernet adapter VMware Network Adapter VMnet8:
