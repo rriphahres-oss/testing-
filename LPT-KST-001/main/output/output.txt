@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Wed, 09 Sep 2026 09:13:33 +0430
+Time: Wed, 09 Sep 2026 09:14:20 +0430
 
 $ whoami
 lpt-kst-001\omaid computer
@@ -30,10 +30,10 @@ System Locale:             en-us;English (United States)
 Input Locale:              en-us;English (United States)
 Time Zone:                 (UTC+04:30) Kabul
 Total Physical Memory:     16,265 MB
-Available Physical Memory: 6,259 MB
+Available Physical Memory: 6,231 MB
 Virtual Memory: Max Size:  29,466 MB
-Virtual Memory: Available: 12,957 MB
-Virtual Memory: In Use:    16,509 MB
+Virtual Memory: Available: 12,937 MB
+Virtual Memory: In Use:    16,529 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    kbl.afghantelecom.af
 Logon Server:              \\LPT-KST-001
@@ -126,24 +126,6 @@ Unknown adapter UltraVpn Network Adapter:
    Physical Address. . . . . . . . . : 00-FF-D0-EA-2F-A1
    DHCP Enabled. . . . . . . . . . . : Yes
    Autoconfiguration Enabled . . . . : Yes
-
-Ethernet adapter Ethernet:
-
-   Connection-specific DNS Suffix  . : 
-   Description . . . . . . . . . . . : Intel(R) Ethernet Connection (4) I219-LM
-   Physical Address. . . . . . . . . : A4-4C-C8-1A-F8-44
-   DHCP Enabled. . . . . . . . . . . : Yes
-   Autoconfiguration Enabled . . . . : Yes
-   Link-local IPv6 Address . . . . . : fe80::2e15:35c1:2d37:6af0%11(Preferred) 
-   Autoconfiguration IPv4 Address. . : 169.254.61.104(Preferred) 
-   Subnet Mask . . . . . . . . . . . : 255.255.0.0
-   Default Gateway . . . . . . . . . : 
-   DHCPv6 IAID . . . . . . . . . . . : 161762504
-   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2E-40-CB-F9-A4-4C-C8-1A-F8-44
-   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
-                                       fec0:0:0:ffff::2%1
-                                       fec0:0:0:ffff::3%1
-   NetBIOS over Tcpip. . . . . . . . : Enabled
 
 Wireless LAN adapter Local Area Connection* 1:
 
@@ -4885,7 +4867,7 @@ $ dir
 05/29/2025  12:50 PM           309,248 zipfldr.dll
 12/07/2019  01:38 PM            30,720 ztrace_maps.dll
             4524 File(s)  2,173,445,592 bytes
-             129 Dir(s)  33,517,981,696 bytes free
+             129 Dir(s)  33,381,527,552 bytes free
 ---
 $ arp -a
 
@@ -4905,16 +4887,6 @@ Interface: 192.168.217.1 --- 0x6
   192.168.217.254       00-50-56-eb-48-ab     dynamic   
   192.168.217.255       ff-ff-ff-ff-ff-ff     static    
   224.0.0.2             01-00-5e-00-00-02     static    
-  224.0.0.22            01-00-5e-00-00-16     static    
-  224.0.0.251           01-00-5e-00-00-fb     static    
-  224.0.0.252           01-00-5e-00-00-fc     static    
-  239.255.255.250       01-00-5e-7f-ff-fa     static    
-  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
-
-Interface: 169.254.61.104 --- 0xb
-  Internet Address      Physical Address      Type
-  169.254.9.45          18-db-f2-13-22-97     dynamic   
-  169.254.255.255       ff-ff-ff-ff-ff-ff     static    
   224.0.0.22            01-00-5e-00-00-16     static    
   224.0.0.251           01-00-5e-00-00-fb     static    
   224.0.0.252           01-00-5e-00-00-fc     static    
