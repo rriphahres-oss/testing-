@@ -1,5 +1,5 @@
 === System Information ===
-Time: Wed, 09 Sep 2026 09:53:35 +0430
+Time: Wed, 09 Sep 2026 09:54:26 +0430
 Hostname: LPT-KST-001
 OS: windows
 Arch: amd64
@@ -27,8 +27,6 @@ Ethernet adapter Ethernet:
 
    Connection-specific DNS Suffix  . : 
    Link-local IPv6 Address . . . . . : fe80::2e15:35c1:2d37:6af0%11
-   Autoconfiguration IPv4 Address. . : 169.254.61.104
-   Subnet Mask . . . . . . . . . . . : 255.255.0.0
    Default Gateway . . . . . . . . . : 
 
 Wireless LAN adapter Local Area Connection* 1:
