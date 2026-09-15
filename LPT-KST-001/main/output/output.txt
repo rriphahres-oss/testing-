@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Tue, 15 Sep 2026 09:45:49 +0430
+Time: Tue, 15 Sep 2026 09:46:35 +0430
 
 $ whoami
 lpt-kst-001\omaid computer
@@ -30,14 +30,14 @@ System Locale:             en-us;English (United States)
 Input Locale:              en-us;English (United States)
 Time Zone:                 (UTC+04:30) Kabul
 Total Physical Memory:     16,265 MB
-Available Physical Memory: 5,610 MB
+Available Physical Memory: 5,177 MB
 Virtual Memory: Max Size:  29,466 MB
-Virtual Memory: Available: 10,637 MB
-Virtual Memory: In Use:    18,829 MB
+Virtual Memory: Available: 10,365 MB
+Virtual Memory: In Use:    19,101 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    kbl.afghantelecom.af
 Logon Server:              \\LPT-KST-001
-Hotfix(s):                 29 Hotfix(s) Installed.
+Hotfix(s):                 30 Hotfix(s) Installed.
                            [01]: KB5066130
                            [02]: KB5042056
                            [03]: KB5003791
@@ -46,27 +46,28 @@ Hotfix(s):                 29 Hotfix(s) Installed.
                            [06]: KB5015684
                            [07]: KB5033052
                            [08]: KB5072653
-                           [09]: KB5066791
-                           [10]: KB5014032
-                           [11]: KB5039336
-                           [12]: KB5041579
-                           [13]: KB5041581
-                           [14]: KB5043935
-                           [15]: KB5043130
-                           [16]: KB5046823
-                           [17]: KB5050388
-                           [18]: KB5050111
-                           [19]: KB5052916
-                           [20]: KB5054682
-                           [21]: KB5055663
-                           [22]: KB5058526
-                           [23]: KB5059504
-                           [24]: KB5061902
-                           [25]: KB5063706
-                           [26]: KB5063261
-                           [27]: KB5063979
-                           [28]: KB5066411
-                           [29]: KB5066790
+                           [09]: KB5126256
+                           [10]: KB5066791
+                           [11]: KB5014032
+                           [12]: KB5039336
+                           [13]: KB5041579
+                           [14]: KB5041581
+                           [15]: KB5043935
+                           [16]: KB5043130
+                           [17]: KB5046823
+                           [18]: KB5050388
+                           [19]: KB5050111
+                           [20]: KB5052916
+                           [21]: KB5054682
+                           [22]: KB5055663
+                           [23]: KB5058526
+                           [24]: KB5059504
+                           [25]: KB5061902
+                           [26]: KB5063706
+                           [27]: KB5063261
+                           [28]: KB5063979
+                           [29]: KB5066411
+                           [30]: KB5066790
 Network Card(s):           6 NIC(s) Installed.
                            [01]: Intel(R) Ethernet Connection (4) I219-LM
                                  Connection Name: Ethernet
@@ -134,7 +135,7 @@ Ethernet adapter Ethernet:
    IPv4 Address. . . . . . . . . . . : 172.16.102.64(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Tuesday, September 15, 2026 7:50:53 AM
-   Lease Expires . . . . . . . . . . : Wednesday, September 16, 2026 7:50:52 AM
+   Lease Expires . . . . . . . . . . : Wednesday, September 16, 2026 7:50:53 AM
    Default Gateway . . . . . . . . . : 172.16.102.1
    DHCP Server . . . . . . . . . . . : 172.16.102.1
    DHCPv6 IAID . . . . . . . . . . . : 161762504
@@ -163,7 +164,7 @@ Ethernet adapter VMware Network Adapter VMnet1:
    IPv4 Address. . . . . . . . . . . : 192.168.217.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Tuesday, September 15, 2026 7:50:05 AM
-   Lease Expires . . . . . . . . . . : Tuesday, September 15, 2026 10:05:04 AM
+   Lease Expires . . . . . . . . . . : Tuesday, September 15, 2026 10:05:05 AM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.217.254
    DHCPv6 IAID . . . . . . . . . . . : 838881366
@@ -184,7 +185,7 @@ Ethernet adapter VMware Network Adapter VMnet8:
    IPv4 Address. . . . . . . . . . . : 192.168.229.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Tuesday, September 15, 2026 7:50:05 AM
-   Lease Expires . . . . . . . . . . : Tuesday, September 15, 2026 10:05:04 AM
+   Lease Expires . . . . . . . . . . : Tuesday, September 15, 2026 10:05:05 AM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.229.254
    DHCPv6 IAID . . . . . . . . . . . : 855658582
@@ -599,7 +600,7 @@ $ dir
 08/17/2024  09:02 AM            97,280 CastLaunch.dll
 08/17/2024  09:02 AM            63,704 CastSrv.exe
 09/05/2026  07:59 AM    <DIR>          CatRoot
-09/09/2026  09:09 AM    <DIR>          catroot2
+09/15/2026  09:46 AM    <DIR>          catroot2
 08/17/2024  08:57 AM           478,720 catsrv.dll
 12/07/2019  01:38 PM            48,128 catsrvps.dll
 08/31/2024  07:43 AM           522,240 catsrvut.dll
@@ -2526,8 +2527,8 @@ $ dir
 05/29/2025  12:50 PM         1,017,024 MrmCoreR.dll
 05/29/2025  12:50 PM           350,208 MrmDeploy.dll
 05/29/2025  12:51 PM           828,416 MrmIndexer.dll
-08/12/2026  10:17 AM    <DIR>          MRT
-08/12/2026  10:17 AM       228,836,432 MRT.exe
+09/15/2026  09:46 AM    <DIR>          MRT
+09/15/2026  09:46 AM       230,964,456 MRT.exe
 12/07/2019  01:38 PM            31,904 mrt100.dll
 12/07/2019  01:38 PM            33,440 mrt_map.dll
 08/17/2024  08:59 AM            58,368 ms3dthumbnailprovider.dll
@@ -4872,8 +4873,8 @@ $ dir
 12/07/2019  01:38 PM            79,872 zipcontainer.dll
 05/29/2025  12:50 PM           309,248 zipfldr.dll
 12/07/2019  01:38 PM            30,720 ztrace_maps.dll
-            4524 File(s)  2,173,445,592 bytes
-             129 Dir(s)  30,319,394,816 bytes free
+            4524 File(s)  2,175,573,616 bytes
+             129 Dir(s)  30,200,954,880 bytes free
 ---
 $ arp -a
 
@@ -4914,7 +4915,7 @@ Interface: 172.16.102.64 --- 0xb
 ---
 $ curl ipinfo.io
 {
-  "ip": "180.94.92.162",
+  "ip": "180.94.90.54",
   "city": "Kabul",
   "region": "Kabul",
   "country": "AF",
