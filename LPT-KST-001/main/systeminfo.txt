@@ -1,5 +1,5 @@
 === System Information ===
-Time: Tue, 15 Sep 2026 10:31:29 +0430
+Time: Tue, 15 Sep 2026 14:07:52 +0430
 Hostname: LPT-KST-001
 OS: windows
 Arch: amd64
@@ -31,6 +31,11 @@ Ethernet adapter Ethernet:
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Default Gateway . . . . . . . . . : 172.16.102.1
 
+Wireless LAN adapter Wi-Fi:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
 Wireless LAN adapter Local Area Connection* 1:
 
    Media State . . . . . . . . . . . : Media disconnected
@@ -53,11 +58,6 @@ Ethernet adapter VMware Network Adapter VMnet8:
    Default Gateway . . . . . . . . . : 
 
 Ethernet adapter Bluetooth Network Connection:
-
-   Media State . . . . . . . . . . . : Media disconnected
-   Connection-specific DNS Suffix  . : 
-
-Wireless LAN adapter Wi-Fi:
 
    Media State . . . . . . . . . . . : Media disconnected
    Connection-specific DNS Suffix  . : 
