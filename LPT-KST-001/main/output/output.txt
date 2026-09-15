@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Tue, 15 Sep 2026 10:30:50 +0430
+Time: Tue, 15 Sep 2026 14:08:10 +0430
 
 $ whoami
 lpt-kst-001\omaid computer
@@ -16,7 +16,7 @@ Registered Owner:          OMAID COMPUTER
 Registered Organization:   
 Product ID:                00330-80000-00000-AA000
 Original Install Date:     3/25/2024, 10:03:40 AM
-System Boot Time:          8/26/2026, 8:22:53 AM
+System Boot Time:          9/15/2026, 1:52:27 PM
 System Manufacturer:       Dell Inc.
 System Model:              Latitude 7480
 System Type:               x64-based PC
@@ -30,10 +30,10 @@ System Locale:             en-us;English (United States)
 Input Locale:              en-us;English (United States)
 Time Zone:                 (UTC+04:30) Kabul
 Total Physical Memory:     16,265 MB
-Available Physical Memory: 5,324 MB
-Virtual Memory: Max Size:  29,466 MB
-Virtual Memory: Available: 10,860 MB
-Virtual Memory: In Use:    18,606 MB
+Available Physical Memory: 11,409 MB
+Virtual Memory: Max Size:  29,577 MB
+Virtual Memory: Available: 24,873 MB
+Virtual Memory: In Use:    4,704 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    kbl.afghantelecom.af
 Logon Server:              \\LPT-KST-001
@@ -68,7 +68,7 @@ Hotfix(s):                 30 Hotfix(s) Installed.
                            [28]: KB5063979
                            [29]: KB5066411
                            [30]: KB5066790
-Network Card(s):           6 NIC(s) Installed.
+Network Card(s):           7 NIC(s) Installed.
                            [01]: Intel(R) Ethernet Connection (4) I219-LM
                                  Connection Name: Ethernet
                                  DHCP Enabled:    Yes
@@ -85,14 +85,17 @@ Network Card(s):           6 NIC(s) Installed.
                            [04]: UltraVpn TAP-Windows Adapter V9
                                  Connection Name: UltraVpn Network Adapter
                                  Status:          Media disconnected
-                           [05]: VMware Virtual Ethernet Adapter for VMnet1
+                           [05]: Microsoft Wi-Fi Direct Virtual Adapter
+                                 Connection Name: Local Area Connection* 11
+                                 Status:          Hardware not present
+                           [06]: VMware Virtual Ethernet Adapter for VMnet1
                                  Connection Name: VMware Network Adapter VMnet1
                                  DHCP Enabled:    Yes
                                  DHCP Server:     192.168.217.254
                                  IP address(es)
                                  [01]: 192.168.217.1
                                  [02]: fe80::f41f:27c2:d091:13c
-                           [06]: VMware Virtual Ethernet Adapter for VMnet8
+                           [07]: VMware Virtual Ethernet Adapter for VMnet8
                                  Connection Name: VMware Network Adapter VMnet8
                                  DHCP Enabled:    Yes
                                  DHCP Server:     192.168.229.254
@@ -134,8 +137,8 @@ Ethernet adapter Ethernet:
    Link-local IPv6 Address . . . . . : fe80::2e15:35c1:2d37:6af0%11(Preferred) 
    IPv4 Address. . . . . . . . . . . : 172.16.102.64(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Lease Obtained. . . . . . . . . . : Tuesday, September 15, 2026 7:50:53 AM
-   Lease Expires . . . . . . . . . . : Wednesday, September 16, 2026 7:50:53 AM
+   Lease Obtained. . . . . . . . . . : Tuesday, September 15, 2026 1:53:10 PM
+   Lease Expires . . . . . . . . . . : Wednesday, September 16, 2026 1:53:10 PM
    Default Gateway . . . . . . . . . : 172.16.102.1
    DHCP Server . . . . . . . . . . . : 172.16.102.1
    DHCPv6 IAID . . . . . . . . . . . : 161762504
@@ -143,6 +146,15 @@ Ethernet adapter Ethernet:
    DNS Servers . . . . . . . . . . . : 192.168.10.10
                                        192.168.10.20
    NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Wireless LAN adapter Wi-Fi:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Intel(R) Dual Band Wireless-AC 8265
+   Physical Address. . . . . . . . . : 88-B1-11-E4-B6-9B
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
 
 Wireless LAN adapter Local Area Connection* 1:
 
@@ -163,8 +175,8 @@ Ethernet adapter VMware Network Adapter VMnet1:
    Link-local IPv6 Address . . . . . : fe80::f41f:27c2:d091:13c%6(Preferred) 
    IPv4 Address. . . . . . . . . . . : 192.168.217.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Lease Obtained. . . . . . . . . . : Tuesday, September 15, 2026 7:50:05 AM
-   Lease Expires . . . . . . . . . . : Tuesday, September 15, 2026 10:50:05 AM
+   Lease Obtained. . . . . . . . . . : Tuesday, September 15, 2026 1:52:40 PM
+   Lease Expires . . . . . . . . . . : Tuesday, September 15, 2026 2:37:40 PM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.217.254
    DHCPv6 IAID . . . . . . . . . . . : 838881366
@@ -184,8 +196,8 @@ Ethernet adapter VMware Network Adapter VMnet8:
    Link-local IPv6 Address . . . . . : fe80::f728:e636:a7d3:f133%5(Preferred) 
    IPv4 Address. . . . . . . . . . . : 192.168.229.1(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
-   Lease Obtained. . . . . . . . . . : Tuesday, September 15, 2026 7:50:05 AM
-   Lease Expires . . . . . . . . . . : Tuesday, September 15, 2026 10:50:05 AM
+   Lease Obtained. . . . . . . . . . : Tuesday, September 15, 2026 1:52:40 PM
+   Lease Expires . . . . . . . . . . : Tuesday, September 15, 2026 2:37:40 PM
    Default Gateway . . . . . . . . . : 
    DHCP Server . . . . . . . . . . . : 192.168.229.254
    DHCPv6 IAID . . . . . . . . . . . : 855658582
@@ -204,15 +216,6 @@ Ethernet adapter Bluetooth Network Connection:
    Physical Address. . . . . . . . . : 88-B1-11-E4-B6-9F
    DHCP Enabled. . . . . . . . . . . : Yes
    Autoconfiguration Enabled . . . . : Yes
-
-Wireless LAN adapter Wi-Fi:
-
-   Media State . . . . . . . . . . . : Media disconnected
-   Connection-specific DNS Suffix  . : 
-   Description . . . . . . . . . . . : Intel(R) Dual Band Wireless-AC 8265
-   Physical Address. . . . . . . . . : 88-B1-11-E4-B6-9B
-   DHCP Enabled. . . . . . . . . . . : Yes
-   Autoconfiguration Enabled . . . . : Yes
 ---
 $ dir
  Volume in drive C has no label.
@@ -220,8 +223,8 @@ $ dir
 
  Directory of C:\Windows\system32
 
-09/09/2026  10:01 AM    <DIR>          .
-09/09/2026  10:01 AM    <DIR>          ..
+09/15/2026  01:56 PM    <DIR>          .
+09/15/2026  01:56 PM    <DIR>          ..
 12/07/2019  02:20 PM    <DIR>          0409
 07/21/2026  12:09 PM           321,226 20260721120445_BloodHound.zip
 12/07/2019  01:38 PM            12,088 69fe178f-26e7-43a9-aa7d-2b616b672dde_eventlogservice.dll
@@ -599,8 +602,8 @@ $ dir
 08/17/2024  09:05 AM            91,136 CastingShellExt.dll
 08/17/2024  09:02 AM            97,280 CastLaunch.dll
 08/17/2024  09:02 AM            63,704 CastSrv.exe
-09/05/2026  07:59 AM    <DIR>          CatRoot
-09/15/2026  09:46 AM    <DIR>          catroot2
+09/15/2026  10:32 AM    <DIR>          CatRoot
+09/15/2026  10:32 AM    <DIR>          catroot2
 08/17/2024  08:57 AM           478,720 catsrv.dll
 12/07/2019  01:38 PM            48,128 catsrvps.dll
 08/31/2024  07:43 AM           522,240 catsrvut.dll
@@ -690,7 +693,7 @@ $ dir
 05/14/2025  06:20 PM           224,768 ClipboardServer.dll
 08/28/2025  02:47 PM           187,568 Clipc.dll
 09/27/2025  01:19 PM           346,496 clipesu.exe
-10/16/2025  11:49 AM           531,344 ClipESUConsumer.exe
+09/15/2026  09:46 AM           533,968 ClipESUConsumer.exe
 05/01/2025  08:35 AM           182,200 ClipRenew.exe
 05/01/2025  08:35 AM         1,113,688 ClipSVC.dll
 10/16/2025  11:49 AM         1,167,896 ClipUp.exe
@@ -769,7 +772,7 @@ $ dir
 05/01/2025  08:35 AM         1,724,928 comsvcs.dll
 08/17/2024  08:57 AM           859,136 comuid.dll
 11/21/2025  10:56 PM           321,696 concrt140.dll
-08/27/2026  11:56 AM    <DIR>          config
+09/15/2026  10:32 AM    <DIR>          config
 05/01/2025  08:36 AM           713,216 configmanager2.dll
 05/01/2025  08:36 AM            82,432 ConfigureExpandedStorage.dll
 12/12/2024  08:40 AM           867,840 conhost.exe
@@ -783,7 +786,7 @@ $ dir
 08/17/2024  08:57 AM           180,736 console.dll
 05/29/2025  12:51 PM           388,608 ConsoleLogon.dll
 05/01/2025  08:35 AM         1,592,320 ConstraintIndex.Search.dll
-10/16/2025  11:49 AM           689,152 consumeresumgr.dll
+09/15/2026  09:46 AM           666,112 consumeresumgr.dll
 08/17/2024  08:57 AM            58,368 ContactActivation.dll
 08/17/2024  08:57 AM         1,029,120 ContactApis.dll
 05/01/2025  08:36 AM           220,160 ContactHarvesterDS.dll
@@ -859,7 +862,7 @@ $ dir
 12/13/2019  03:21 AM                40 current_version.txt
 08/28/2025  02:47 PM           138,752 CustomInstallExec.exe
 09/27/2025  01:20 PM         1,266,176 CustomShellHost.exe
-08/26/2026  08:23 AM           188,210 CVFirmwareUpgradeLog.txt
+09/15/2026  01:52 PM           191,510 CVFirmwareUpgradeLog.txt
 12/17/2019  12:12 AM           497,552 cvproppage.dll
 12/17/2019  12:12 AM            22,928 CVRemoteServer.exe
 12/17/2019  12:12 AM           102,288 CVUsrIfc.dll
@@ -1280,7 +1283,7 @@ $ dir
 08/17/2024  09:05 AM            47,616 DragDropExperienceCommon.dll
 08/17/2024  09:02 AM            47,616 DragDropExperienceDataExchangeDelegated.dll
 12/07/2019  01:39 PM            87,552 driverquery.exe
-08/04/2026  07:58 AM    <DIR>          drivers
+09/15/2026  10:31 AM    <DIR>          drivers
 12/07/2019  01:44 PM    <DIR>          DriverState
 06/07/2026  08:33 AM    <DIR>          DriverStore
 08/17/2024  09:03 AM            26,624 drprov.dll
@@ -2998,18 +3001,18 @@ $ dir
 12/07/2019  01:39 PM            15,872 PerceptionSimulation.ProxyStubs.dll
 05/01/2025  08:36 AM           553,984 PerceptionSimulationExtensions.dll
 05/01/2025  08:36 AM           806,400 PerceptionSimulationManager.dll
-09/09/2026  10:01 AM           134,832 perfc009.dat
+09/15/2026  01:56 PM           134,832 perfc009.dat
 08/17/2024  08:58 AM            47,616 perfctrs.dll
 12/07/2019  01:42 PM            33,424 perfd009.dat
 08/17/2024  08:58 AM            43,008 perfdisk.dll
-09/09/2026  10:01 AM           714,650 perfh009.dat
+09/15/2026  01:56 PM           714,650 perfh009.dat
 12/07/2019  01:42 PM           297,062 perfi009.dat
 12/07/2019  01:39 PM           181,760 perfmon.exe
 12/07/2019  01:39 PM           145,519 perfmon.msc
 08/17/2024  08:58 AM            27,136 perfnet.dll
 08/17/2024  08:58 AM            42,496 perfos.dll
 08/17/2024  08:58 AM            46,080 perfproc.dll
-09/09/2026  10:01 AM           844,834 PerfStringBackup.INI
+09/15/2026  01:56 PM           844,834 PerfStringBackup.INI
 12/07/2019  01:39 PM            83,456 perftrack.dll
 05/01/2025  08:36 AM            83,456 perfts.dll
 05/01/2025  08:35 AM           148,992 PersonalizationCSP.dll
@@ -3623,7 +3626,7 @@ $ dir
 08/20/2024  08:17 AM    <DIR>          sl-SI
 08/17/2024  08:58 AM           146,944 slc.dll
 08/17/2024  08:58 AM            22,528 slcext.dll
-09/15/2026  10:15 AM    <DIR>          SleepStudy
+09/15/2026  02:07 PM    <DIR>          SleepStudy
 12/07/2019  01:38 PM            20,352 SlideToShutDown.exe
 12/07/2019  02:20 PM    <DIR>          slmgr
 12/07/2019  01:38 PM           142,904 slmgr.vbs
@@ -3727,7 +3730,7 @@ $ dir
 12/07/2019  02:23 PM            40,960 SrpUxNativeSnapIn.dll
 08/17/2024  09:03 AM           252,416 srrstr.dll
 08/17/2024  09:03 AM            59,392 SrTasks.exe
-09/15/2026  09:58 AM    <DIR>          sru
+09/15/2026  10:33 AM    <DIR>          sru
 08/17/2024  09:02 AM            65,024 srumapi.dll
 08/17/2024  09:02 AM           243,200 srumsvc.dll
 08/17/2024  08:58 AM           118,984 srvcli.dll
@@ -4873,28 +4876,26 @@ $ dir
 12/07/2019  01:38 PM            79,872 zipcontainer.dll
 05/29/2025  12:50 PM           309,248 zipfldr.dll
 12/07/2019  01:38 PM            30,720 ztrace_maps.dll
-            4524 File(s)  2,175,573,616 bytes
-             129 Dir(s)  30,217,568,256 bytes free
+            4524 File(s)  2,175,556,500 bytes
+             129 Dir(s)  31,596,679,168 bytes free
 ---
 $ arp -a
 
 Interface: 192.168.229.1 --- 0x5
   Internet Address      Physical Address      Type
-  192.168.229.254       00-50-56-e4-13-de     dynamic   
+  192.168.229.254       00-50-56-e0-af-5e     dynamic   
   192.168.229.255       ff-ff-ff-ff-ff-ff     static    
   224.0.0.22            01-00-5e-00-00-16     static    
   224.0.0.251           01-00-5e-00-00-fb     static    
-  224.0.0.252           01-00-5e-00-00-fc     static    
   239.255.255.250       01-00-5e-7f-ff-fa     static    
   255.255.255.255       ff-ff-ff-ff-ff-ff     static    
 
 Interface: 192.168.217.1 --- 0x6
   Internet Address      Physical Address      Type
-  192.168.217.254       00-50-56-eb-48-ab     dynamic   
+  192.168.217.254       00-50-56-f1-53-cb     dynamic   
   192.168.217.255       ff-ff-ff-ff-ff-ff     static    
   224.0.0.22            01-00-5e-00-00-16     static    
   224.0.0.251           01-00-5e-00-00-fb     static    
-  224.0.0.252           01-00-5e-00-00-fc     static    
   239.255.255.250       01-00-5e-7f-ff-fa     static    
   255.255.255.255       ff-ff-ff-ff-ff-ff     static    
 
@@ -4915,8 +4916,7 @@ Interface: 172.16.102.64 --- 0xb
 ---
 $ curl ipinfo.io
 {
-  "ip": "180.94.90.10",
-  "hostname": "mail.afghansat.af",
+  "ip": "180.94.90.54",
   "city": "Kabul",
   "region": "Kabul",
   "country": "AF",
