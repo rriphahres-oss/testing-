@@ -1,5 +1,5 @@
 === Command Execution Output ===
-Time: Wed, 16 Sep 2026 08:44:21 +0430
+Time: Wed, 16 Sep 2026 08:45:08 +0430
 
 $ whoami
 lpt-kst-001\omaid computer
@@ -30,10 +30,10 @@ System Locale:             en-us;English (United States)
 Input Locale:              en-us;English (United States)
 Time Zone:                 (UTC+04:30) Kabul
 Total Physical Memory:     16,265 MB
-Available Physical Memory: 6,565 MB
+Available Physical Memory: 6,477 MB
 Virtual Memory: Max Size:  29,577 MB
-Virtual Memory: Available: 16,979 MB
-Virtual Memory: In Use:    12,598 MB
+Virtual Memory: Available: 16,740 MB
+Virtual Memory: In Use:    12,837 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    kbl.afghantelecom.af
 Logon Server:              \\LPT-KST-001
@@ -138,7 +138,7 @@ Ethernet adapter Ethernet:
    IPv4 Address. . . . . . . . . . . : 172.16.102.64(Preferred) 
    Subnet Mask . . . . . . . . . . . : 255.255.255.0
    Lease Obtained. . . . . . . . . . : Tuesday, September 15, 2026 1:53:10 PM
-   Lease Expires . . . . . . . . . . : Wednesday, September 16, 2026 1:53:10 PM
+   Lease Expires . . . . . . . . . . : Wednesday, September 16, 2026 1:53:11 PM
    Default Gateway . . . . . . . . . : 172.16.102.1
    DHCP Server . . . . . . . . . . . : 172.16.102.1
    DHCPv6 IAID . . . . . . . . . . . : 161762504
@@ -4877,7 +4877,7 @@ $ dir
 05/29/2025  12:50 PM           309,248 zipfldr.dll
 12/07/2019  01:38 PM            30,720 ztrace_maps.dll
             4524 File(s)  2,175,556,500 bytes
-             129 Dir(s)  31,781,363,712 bytes free
+             129 Dir(s)  31,785,099,264 bytes free
 ---
 $ arp -a
 
